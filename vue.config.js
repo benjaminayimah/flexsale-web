@@ -10,7 +10,6 @@ module.exports = {
         sass: {
           prependData: `@import "@/assets/index.scss";`
         },
-       
       }
     },
     pwa: {
@@ -20,7 +19,5 @@ module.exports = {
       msTileColor: '#000000',
       appleMobileWebAppCapable: 'yes',
       appleMobileWebAppStatusBarStyle: 'black',
-  
     }
-    
   }
