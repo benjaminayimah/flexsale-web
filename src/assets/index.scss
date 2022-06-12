@@ -37,10 +37,6 @@ button{
     &:hover{
       background-color: $primary-hover;
     }
-    &:active{
-      //transform: scale(0.99);
-    //   box-shadow: 0 0 0 0.2rem rgb(86 111 244 / 20%);
-    }
 }
 .button-secndary{
     background-color: $gray-light;
