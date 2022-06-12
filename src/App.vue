@@ -1,30 +1,34 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
+  <top-info-bar />
+  <Header />
   <router-view/>
 </template>
+<script>
+import Header from './components/includes/Header.vue';
+import TopInfoBar from './components/includes/TopInfoBar.vue';
+export default {
+    name: "App",
+    components: { Header, TopInfoBar }
+}
+</script>
 
 <style lang="scss">
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+body {
+  font-family: $myFont;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+  color: $dark;
+  font-size: 18px;
+  margin: 0 ;
+  overflow-x: hidden;
 }
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>

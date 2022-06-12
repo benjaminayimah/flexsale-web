@@ -1,1 +1,71 @@
-$primary-color: #566ff4;
+$primary: #5348F4;
+$primary-light: #f0f3ff;
+$primary-hover: #435ADE;
+$dark: #0E101A;
+$gray: #7e8596;
+$dark-light: #D4D8DE;
+$gray-light: #e9ebf0;
+$accent: #ffab23;
+$white-color: #ffffff;
+$danger: #e63232;
+$success: #20C647;
+$warning: #EFB91C;
+$button-disabled: #9ea7d8;
+
+$myFont: 'Urbanist', Helvetica, sans-serif;
+button{
+    background-color: unset;
+    border-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    cursor: pointer;
+    transition: 0.4s all;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 30px;
+    white-space: nowrap;
+    &:hover {
+        background-color: $gray-light;
+
+    }
+}
+.button-primary{
+    background-color: $dark;
+    color: $white-color;
+    &:hover{
+      background-color: $primary-hover;
+    }
+    &:active{
+      //transform: scale(0.99);
+    //   box-shadow: 0 0 0 0.2rem rgb(86 111 244 / 20%);
+    }
+}
+.button-secndary{
+    background-color: $gray-light;
+    &:hover{
+      background-color: $dark;
+      color: #fff;
+    }
+}
+.gap-8{
+    gap: 8px;
+}
+
+.fx{
+    display: flex;
+}
+.jc-c{
+    justify-content: center;
+}
+.ai-c{
+    align-items: center;
+}
+.fx-js{
+    justify-content: space-between;
+}
+.sticky-top{
+    position: sticky;
+    -webkit-position: sticky;
+  }
