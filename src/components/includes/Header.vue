@@ -22,11 +22,11 @@
       <div v-if="desk" id="nav" class="fx">
           <router-link to="/">Home</router-link>
           <router-link to="/about">About</router-link>
-          <router-link to="/about">Careers</router-link>
+          <router-link to="/careers">Careers</router-link>
       </div>
       <div v-show="!menuToggle" class="header-right gap-8 fx">
-        <a v-if="desk" href="http://localhost:8080/signin" class="a-button signin">Log In</a>
-        <a href="http://localhost:8080/signup" class="a-button" :class="mob ? 'button-primary' : 'signup'">Get Started</a>
+        <a v-if="desk" href="http://localhost:8080/signin" class="a-button button-secondary">Log In</a>
+        <a href="http://localhost:8080/signup" class="a-button button-primary">Get Started</a>
       </div>
     </div>
   </header>
@@ -52,7 +52,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 header{
-  height: 80px;
+  height: 100px;
   background-color: #ffffff;
   #nav {
     a {
@@ -74,17 +74,6 @@ header{
         font-size: 16px;
         font-weight: 600;
       }
-      .signin{
-          color: $dark;
-        }
-      .signup{
-        background-color: $gray-light;
-        color: $dark;
-        &:hover{
-        background-color: $dark;
-        color: #fff;
-      }
-}
     }
 }
 .sticky-top{

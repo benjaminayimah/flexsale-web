@@ -1,11 +1,11 @@
 <template>
     <transition name="slide-fade">
-        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-130 + 'px' }">
+        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-150 + 'px' }">
             <div class="mob-menu-wrapper fx-js fx-col">
                 <ul>
                     <li><router-link to="/">Home</router-link></li>
                     <li><router-link to="/about">About</router-link></li>
-                    <li><router-link to="/about">Careers</router-link></li>
+                    <li><router-link to="/careers">Careers</router-link></li>
                 </ul>
                 <div class="fx w-100 gap-8">
                     <a href="" class="w-50 signin a-button button-secondary">Login</a>
@@ -33,10 +33,18 @@ export default {
 }
 ul{
     li{
+        display: flex;
+        transition: 0.5s all;
+        flex-grow: 1;
+        height: 75px;
+
         a {
-            padding: 20px;
-            display: block;
+            display: flex;
             font-size: 1.8rem;
+            padding: 0 20px;
+            flex-grow: 1;
+            height: inherit;
+            align-items: center;
         }
     }
     .router-link-exact-active {
@@ -45,15 +53,6 @@ ul{
 }
 .a-button{
     padding: 20px;
-}
-
-.signin{
-    background-color: $gray-light;
-    color: $dark;
-    &:hover{
-    background-color: $dark;
-    color: #fff;
-    }
 }
 .slide-fade-enter-active {
   transition: all 0.3s ease-out;
