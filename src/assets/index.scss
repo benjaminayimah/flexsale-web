@@ -13,23 +13,25 @@ $warning: #EFB91C;
 $button-disabled: #9ea7d8;
 
 $myFont: 'Urbanist', Helvetica, sans-serif;
-button{
+button,.a-button{
     background-color: unset;
     border-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
     cursor: pointer;
     transition: 0.4s all;
     padding: 16px;
     font-size: 16px;
     border-radius: 30px;
     white-space: nowrap;
+    font-weight: 600;
     &:hover {
         background-color: $gray-light;
-
     }
+}
+.a-button{
+    text-decoration: unset;
 }
 .button-primary{
     background-color: $dark;
@@ -48,7 +50,15 @@ button{
 .gap-8{
     gap: 8px;
 }
-
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    a {
+        text-decoration: none;
+        color: unset;
+    }
+}
 .fx{
     display: flex;
 }
@@ -61,7 +71,56 @@ button{
 .fx-js{
     justify-content: space-between;
 }
+.fx-col{
+    display: flex;
+    flex-direction: column;
+}
+.w-100{
+    width: 100%;
+}
+.w-50{
+    width: 50%;
+}
 .sticky-top{
     position: sticky;
     -webkit-position: sticky;
-  }
+}
+
+//Desktop
+.desk-view {
+    .top-hold{
+        width: 80%;
+    }
+}
+
+//Tablet
+.tab-view {
+    .top-hold{
+        width: 90%;
+    }
+    #logo {
+        margin-left: 8%;
+    }
+}
+
+//Mobile
+.mob-view {
+    .top-hold{
+        width: 96%;
+    }
+    .top-wrapper{
+        padding: 8px 20px;
+    }
+    .hamburger-menu{
+        margin-left: -16px;
+    }
+    .top-hold{
+        padding: 0 16px;
+    }
+    .top-wrapper{
+        font-size: 14px;
+    }
+    .no-hover:hover{
+        background-color: transparent !important;
+    }
+}
