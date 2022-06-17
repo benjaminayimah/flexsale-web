@@ -1,5 +1,5 @@
 <template>
-    <div class="fx ai-c jc-c gap-8">
+    <div class="top-wrapper">
         <span>For a guide and recipes on how to configure / customize this project.</span>
         <a href="#">Learn more</a>
     </div>
@@ -10,25 +10,24 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.fx{
+.top-wrapper{
     background-color: $primary;
-    height: 50px;
     color: #ffffff;
     font-size: 15px;
     background-image: url('../../assets/images/svg.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    text-align: center;
+    padding: 16px 20px;
     span{
         font-weight: 400; 
-        white-space: nowrap
-
     }
     a{
         color: #ffffff;
         font-weight: 500;
-        white-space: nowrap
+        white-space: nowrap;
+        margin-left: 8px;
     }
     
 }
