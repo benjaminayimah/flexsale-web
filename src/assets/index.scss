@@ -28,6 +28,8 @@ button,.a-button{
     font-weight: 600;
     &:hover {
         background-color: $gray-light;
+    }&:active {
+        transform: scale(0.94);
     }
 }
 .a-button{
@@ -37,18 +39,21 @@ button,.a-button{
     background-color: $dark;
     color: $white-color;
     &:hover{
-      background-color: $primary-hover;
+      background-color: $primary ;
     }
 }
-.button-secndary{
+.button-secondary{
     background-color: $gray-light;
+    color: $dark;
     &:hover{
-      background-color: $dark;
-      color: #fff;
+      background-color: $dark-light;
     }
 }
 .gap-8{
     gap: 8px;
+}
+.gap-16{
+    gap: 16px;
 }
 ul {
     padding: 0;
@@ -122,5 +127,12 @@ ul {
     }
     .no-hover:hover{
         background-color: transparent !important;
+    }
+    .header-right a {
+        padding: 14px;
+        font-size: 14px;
+    }
+    #cookie_consent{
+        width: 100%;
     }
 }
