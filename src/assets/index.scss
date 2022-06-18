@@ -79,6 +79,9 @@ ul {
 h1,h2,h3{
     margin: 0;
 }
+.fixed-body{
+    overflow: hidden; overscroll-behavior-y: none;
+}
 .fx{
     display: flex;
 }
@@ -156,8 +159,8 @@ h1,h2,h3{
         }
     }
     .link-list{
-        color: $primary;
-        li a {
+        li, a {
+            color: $primary;
             text-decoration: underline;
         }
     }
@@ -225,9 +228,4 @@ h1,h2,h3{
         }
     }
     
-}
-@media screen and (max-width: 500px){
-    body {
-        font-size: 16px !important;
-    }
 }

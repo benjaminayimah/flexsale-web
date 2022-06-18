@@ -2,12 +2,15 @@ import { createStore } from 'vuex'
 
 export default createStore({
   state: {
+    flexsaleHostname: 'http://localhost:8080',
     mobile: false,
     tablet: false,
     desktop: false,
     windowHeight: '',
     windowWidth: '',
-    cookieConsent: true
+    cookieConsent: true,
+    dynamicFloatingDiv: { left: 0, top: 0, bottom: 0},
+
   },
   mutations: {
     setCookie(state) {
@@ -25,7 +28,6 @@ export default createStore({
       }else{
         this.commit('setTablet')
       }
-      console.log(winWidth)
     },
     setMobile(state) {
       this.commit('resetAll')
@@ -43,7 +45,26 @@ export default createStore({
       state.tablet = false
       state.mobile = false
       state.desktop = false
-    }
+    },
+    setDynamicFloatingDiv(state, payload) {
+      const rect = payload.getBoundingClientRect()
+      let top = rect.top
+      let left = rect.left
+      let bottom = rect.bottom
+      state.dynamicFloatingDiv.left = left
+      state.dynamicFloatingDiv.top = top
+      state.dynamicFloatingDiv.bottom = bottom
+      document.body.classList.add('fixed-body')
+      console.log(top + '_' + left +'_'+ bottom)
+
+    },
+    reSetDynamicFloatingDiv(state) {
+      state.dynamicFloatingDiv.left = 0
+      state.dynamicFloatingDiv.top = 0
+      state.dynamicFloatingDiv.bottom = 0
+      document.body.classList.remove('fixed-body')
+
+    },
   },
   actions: {
     
@@ -54,6 +75,9 @@ export default createStore({
     getMobile: (state) => state.mobile,
     getTablet: (state) => state.tablet,
     getDesktop: (state) => state.desktop,
-    getCookieConsent: (state) => state.cookieConsent
+    getCookieConsent: (state) => state.cookieConsent,
+    getAppHostname: (state) => state.flexsaleHostname,
+    getFloatingDiv: (state) => state.dynamicFloatingDiv,
+
   }
 })

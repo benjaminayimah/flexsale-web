@@ -1,5 +1,5 @@
 <template>
-  <header class="fx jc-c sticky-top">
+  <header class="fx jc-c sticky-top" id="header">
     <div class="fx ai-c fx-js top-hold">
       <button @click.prevent="doMenu" v-if="!desk" class="hamburger-menu" :class="[{ 'menu-toggle-in' : menuToggle}, {'no-hover' : !menuToggle}]">
         <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 28 18">
@@ -23,18 +23,20 @@
           <router-link v-for="menu in menus" :key="menu.id" :to="menu.url">{{ menu.name }}</router-link>
       </div>
       <div v-show="!menuToggle" class="header-right gap-8 fx">
-        <a v-if="desk" href="http://localhost:8080/signin" class="a-button button-secondary">Log In</a>
-        <a href="http://localhost:8080/signup" class="a-button button-primary">Get Started</a>
+        <a v-if="desk" :href="getAppHostname+'/signin'" class="a-button button-secondary">Log In</a>
+        <a :href="getAppHostname+'/signup'" class="a-button button-primary">Get Started</a>
       </div>
     </div>
   </header>
-  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" v-bind:menus="menus" />
+  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" v-bind:menus="menus" v-bind:appHostname="getAppHostname" />
 </template>
 <script>
+import { mapGetters } from 'vuex'
 import MobileMenu from './MobileMenu.vue'
 export default {
   components: { MobileMenu },
     name: 'Header',
+    computed: mapGetters(['getAppHostname']),
     props: ['mob', 'tab', 'desk', 'winHeight'],
     data() {
       return {
@@ -49,7 +51,14 @@ export default {
     },
     methods: {
       doMenu() {
-        this.menuToggle = !this.menuToggle
+        const elem = document.getElementById('header')
+        if(this.menuToggle === true) {
+          this.menuToggle = false
+          this.$store.commit('reSetDynamicFloatingDiv')
+        }else {
+          this.menuToggle = true
+          this.$store.commit('setDynamicFloatingDiv', elem)
+        }
       }
     }
 }

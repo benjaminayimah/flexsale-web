@@ -4,7 +4,7 @@
             <div class="fx-col ai-c gap-32 footer-cont-1">
                 <h1>Get started with <span>Flexsale</span> Now.</h1>
                 <span class="span">It will only take a moment.</span>
-                <a href="" class="a-button button-primary">Create Free Account</a>
+                <a :href="getAppHostname+'/signup'" class="a-button button-primary">Create Free Account</a>
             </div>
             <ul class="social-list fx gap-8">
                 <li>
@@ -37,15 +37,16 @@
     </footer>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 export default {
     name: 'Footer',
+    computed: mapGetters(['getAppHostname']),
     data () {
         return {
             links: [
-                { id: 1, url: '/contact-us', name: 'Contact us'},
-                { id: 2, url: '/terms-and-conditions', name: 'Terms & Conditions'},
-                { id: 3, url: '/cookies-policy', name: 'Cookies policy'},
-                { id: 4, url: '/privacy-policy', name: 'Privacy policy'}
+                { id: 1, url: '/terms-and-conditions', name: 'Terms & Conditions'},
+                { id: 3, url: '/privacy-policy', name: 'Privacy policy'},
+                { id: 2, url: '/cookies-policy', name: 'Cookie policy'},
             ]
         }
     }
