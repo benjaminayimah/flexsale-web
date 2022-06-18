@@ -4,8 +4,8 @@
       <button @click.prevent="doMenu" v-if="!desk" class="hamburger-menu" :class="[{ 'menu-toggle-in' : menuToggle}, {'no-hover' : !menuToggle}]">
         <svg xmlns="http://www.w3.org/2000/svg" height="15" viewBox="0 0 28 18">
           <g id="hamburger_menu" transform="translate(-399.995 -84)">
-            <line id="menu_line_1" class="hamburger-line" x2="28" transform="translate(399.995 85)" fill="none" stroke="#0e142c" stroke-width="2"/>
-            <line id="menu_line_2" class="hamburger-line" x2="28" transform="translate(399.995 101)" fill="none" stroke="#0e142c" stroke-width="2"/>
+            <line id="menu_line_1" class="hamburger-line" x2="30" transform="translate(399.995 85)" fill="none" stroke="#0e142c" stroke-width="2"/>
+            <line id="menu_line_2" class="hamburger-line" x2="30" transform="translate(399.995 101)" fill="none" stroke="#0e142c" stroke-width="2"/>
           </g>
         </svg>
       </button>
@@ -109,6 +109,7 @@ header{
   }
 }
 .hamburger-menu{
+  padding: 16px;
   height: 55px;
   width: 55px;
 }
