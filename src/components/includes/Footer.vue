@@ -2,7 +2,7 @@
     <footer class="fx">
         <div class="footer-wrapper gap-32 fx-col ai-c">
             <div class="fx-col ai-c gap-32 footer-cont-1">
-                <h1>Get start with <span>Flexsale</span> Now.</h1>
+                <h1>Get started with <span>Flexsale</span> Now.</h1>
                 <span class="span">It will only take a moment.</span>
                 <a href="" class="a-button button-primary">Create Free Account</a>
             </div>
@@ -42,10 +42,10 @@ export default {
     data () {
         return {
             links: [
-                { id: 1, url: '/contact-us', name: 'Contact Us'},
+                { id: 1, url: '/contact-us', name: 'Contact us'},
                 { id: 2, url: '/terms-and-conditions', name: 'Terms & Conditions'},
-                { id: 3, url: '/cookies-policy', name: 'Cookies Policy'},
-                { id: 4, url: '/privacy-policy', name: 'Privacy Policy'}
+                { id: 3, url: '/cookies-policy', name: 'Cookies policy'},
+                { id: 4, url: '/privacy-policy', name: 'Privacy policy'}
             ]
         }
     }
@@ -103,7 +103,7 @@ footer{
         h1 {
             font-size: 4.8rem;
             text-align: center;
-            max-width: 500px;
+            max-width: 600px;
             span {
                 color: $primary;
             }

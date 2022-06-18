@@ -6,8 +6,9 @@
 
 <script>
 // @ is an alias to /src
-
+import scrollTopMixin from '../mixins/scrollTopMixin'
 export default {
   name: 'Home',
+  mixins: [scrollTopMixin]
 }
 </script>

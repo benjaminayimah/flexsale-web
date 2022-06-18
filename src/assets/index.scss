@@ -23,7 +23,7 @@ button,.a-button{
     align-items: center;
     cursor: pointer;
     transition: 0.4s all;
-    padding: 16px;
+    padding: 16px 18px;
     font-size: 16px;
     border-radius: 30px;
     white-space: nowrap;
@@ -106,6 +106,62 @@ h1,h2,h3{
     -webkit-position: sticky;
 }
 
+//policies
+
+.policies-wrapper{
+    background-color: #F8F8FA;
+    flex-grow: 1;
+    padding: 0 20px;
+    .policies-holder{
+        width: 70%;
+        padding: 50px 0;
+        h1 {
+            font-size: 4.8rem;
+        }
+        .gray{
+            color: gray;
+        }
+        p {
+            line-height: 2;
+            a{
+                color: $primary;
+                font-weight: 500;
+            }
+        }
+    }
+    .p-section{
+        margin-top: 50px;
+        h2 {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.8rem;
+            margin: 16px 0;
+        }
+        .p-section-sub{
+            margin-left: 50px;
+        }
+        ul {
+            margin-left: 20px;
+            list-style-type: circle;
+        }
+        .mini-list {
+            p:first-child{
+                margin-bottom: 8px;
+            }
+        }
+        ul li {
+            line-height: 1.8;
+        }
+    }
+    .link-list{
+        li a {
+            color: $primary;
+            text-decoration: underline;
+        }
+    }
+}
+
 //Desktop
 .desk-view {
     .top-hold{
@@ -152,6 +208,15 @@ h1,h2,h3{
     }
     .footer-cont-1{
         max-width: 100%;
+    }
+    .policies-wrapper{
+        .policies-holder{
+            padding: 30px 0;
+            width: 100%;
+            h1 {
+                font-size: 2.8rem;
+            }
+        }
     }
     
 }

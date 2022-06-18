@@ -7,9 +7,12 @@ export default createStore({
     desktop: false,
     windowHeight: '',
     windowWidth: '',
-    cookieConsent: false
+    cookieConsent: true
   },
   mutations: {
+    setCookie(state) {
+      state.cookieConsent = false
+    },
     computeWindow(state) {
       let appWidth = 990
       let winWidth = window.innerWidth

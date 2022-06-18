@@ -4,8 +4,10 @@
     </div>
 </template>
 <script>
+import scrollTopMixin from '../mixins/scrollTopMixin'
 export default {
-    name: 'Contact'
+    name: 'Contact',
+    mixins: [scrollTopMixin]
 }
 </script>
 <style lang="scss" scoped>
