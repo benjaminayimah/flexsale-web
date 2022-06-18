@@ -20,9 +20,7 @@
         </a>
       </div>
       <div v-if="desk" id="nav" class="fx">
-          <router-link to="/">Home</router-link>
-          <router-link to="/about">About</router-link>
-          <router-link to="/careers">Careers</router-link>
+          <router-link v-for="menu in menus" :key="menu.id" :to="menu.url">{{ menu.name }}</router-link>
       </div>
       <div v-show="!menuToggle" class="header-right gap-8 fx">
         <a v-if="desk" href="http://localhost:8080/signin" class="a-button button-secondary">Log In</a>
@@ -30,7 +28,7 @@
       </div>
     </div>
   </header>
-  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" />
+  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" v-bind:menus="menus" />
 </template>
 <script>
 import MobileMenu from './MobileMenu.vue'
@@ -40,7 +38,13 @@ export default {
     props: ['mob', 'tab', 'desk', 'winHeight'],
     data() {
       return {
-        menuToggle: false
+        menuToggle: false,
+        menus: [
+          { id: 1, url: '/', name: 'Home'},
+          { id: 2, url: '/about', name: 'About'},
+          { id: 4, url: '/careers', name: 'Careers'},
+          { id: 3, url: '/contact-us', name: 'Contact'}
+        ]
       }
     },
     methods: {

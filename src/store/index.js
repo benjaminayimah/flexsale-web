@@ -7,6 +7,7 @@ export default createStore({
     desktop: false,
     windowHeight: '',
     windowWidth: '',
+    cookieConsent: false
   },
   mutations: {
     computeWindow(state) {
@@ -49,6 +50,7 @@ export default createStore({
     getWindowWidth: (state) => state.windowWidth,
     getMobile: (state) => state.mobile,
     getTablet: (state) => state.tablet,
-    getDesktop: (state) => state.desktop
+    getDesktop: (state) => state.desktop,
+    getCookieConsent: (state) => state.cookieConsent
   }
 })

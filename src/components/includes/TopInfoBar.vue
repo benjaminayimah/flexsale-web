@@ -13,7 +13,7 @@ export default {
 .top-wrapper{
     background-color: $primary;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 16px;
     background-image: url('../../assets/images/svg.svg');
     background-repeat: no-repeat;
     background-position: center;
