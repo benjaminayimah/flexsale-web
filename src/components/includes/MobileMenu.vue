@@ -1,22 +1,24 @@
 <template>
     <transition name="slide-fade">
-        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-150 + 'px' }">
+        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-150 + 'px', top: getFloatingDiv.bottom + 'px'}">
             <div class="mob-menu-wrapper fx-js fx-col">
                 <ul>
                     <li v-for="menu in menus" :key="menu.id"><router-link :to="menu.url">{{ menu.name }}</router-link></li>
                 </ul>
                 <div class="fx w-100 gap-8">
-                    <a href="" class="w-50 signin a-button button-secondary">Login</a>
-                    <a href="" class="w-50 a-button button-primary">Get Started</a>
+                    <a :href="appHostname+'/signin'" class="w-50 signin a-button button-secondary">Login</a>
+                    <a :href="appHostname+'/signup'" class="w-50 a-button button-primary">Get Started</a>
                 </div>
             </div>
         </div>
     </transition>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 export default {
     name: 'MobileMenu',
-    props: ['menuActive', 'winHeight', 'desk', 'menus']
+    props: ['menuActive', 'winHeight', 'desk', 'menus', 'appHostname'],
+    computed: mapGetters(['getFloatingDiv']),
 }
 </script>
 <style lang="scss" scoped>
