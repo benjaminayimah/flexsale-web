@@ -35,6 +35,7 @@ export default {
     }
     .cookies-body{
         font-size: 17px;
+        line-height: 1.4;
         a {
             color: $primary;
             font-weight: 600;

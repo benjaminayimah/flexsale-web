@@ -1,12 +1,11 @@
 <template>
-    <div class="policies-wrapper fx jc-c">
+    <section class="policies-wrapper fx jc-c">
         <div class="policies-holder">
             <h1>Cookie policy</h1>
-            <h4>Terms and Conditions (“Terms”)</h4>
             <h4 class="gray">Last updated: June 20, 2022</h4>
             <div class="p-section">
                 <p>
-                    <strong>Flexsale.com</strong> (“we” or “us” or “our”) may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website [Name of Website.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience. 
+                    <strong>Flexsale.store</strong> (“we” or “us” or “our”) may use cookies, web beacons, tracking pixels, and other tracking technologies when you visit our website [Name of Website.com], including any other media form, media channel, mobile website, or mobile application related or connected thereto (collectively, the “Site”) to help customize the Site and improve your experience. 
                 </p>
                 <p>
                     We reserve the right to make changes to this Cookie Policy at any time and for any reason. We will alert you about any changes by updating the “Last Updated” date of this Cookie Policy. Any changes or modifications will be effective immediately upon posting the updated Cookie Policy on the Site, and you waive the right to receive specific notice of each such change or modification. 
@@ -109,7 +108,7 @@
             
             
         </div>
-    </div>
+    </section>
 </template>
 <script>
 import scrollTopMixin from '../mixins/scrollTopMixin'

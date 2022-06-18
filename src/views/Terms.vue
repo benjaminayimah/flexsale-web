@@ -1,12 +1,12 @@
 <template>
-    <div class="policies-wrapper fx jc-c">
+    <section class="policies-wrapper fx jc-c">
         <div class="policies-holder">
             <h1>Terms & Conditions</h1>
             <h4>Terms and Conditions (“Terms”)</h4>
             <h4 class="gray">Last updated: June 20, 2022</h4>
             <div class="p-section">
                 <p>
-                    Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the <strong>Flexsale App</strong> (the “Service”) operated by <a href="">Flexsale.com</a> (“us”, “we”, or “our”). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. 
+                    Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the <strong>Flexsale App</strong> (the “Service”) operated by <a :href="getHostname">Flexsale.store</a> (“us”, “we”, or “our”). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. 
                 </p>
             </div>
             <div class="p-section">
@@ -76,12 +76,14 @@
             </div>
 
         </div>
-    </div>
+    </section>
 </template>
 <script>
+import { mapGetters } from 'vuex'
 import scrollTopMixin from '../mixins/scrollTopMixin'
 export default {
     name: 'TermsAndConditions',
+    computed: mapGetters(['getHostname']),
     mixins: [scrollTopMixin]
 }
 </script>

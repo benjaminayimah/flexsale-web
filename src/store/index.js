@@ -3,6 +3,7 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     flexsaleHostname: 'http://localhost:8080',
+    hostname: 'http://localhost:8081',
     mobile: false,
     tablet: false,
     desktop: false,
@@ -70,6 +71,7 @@ export default createStore({
     
   },
   getters: {
+    getHostname: (state) => state.hostname,
     getWindowHeight: (state) => state.windowHeight,
     getWindowWidth: (state) => state.windowWidth,
     getMobile: (state) => state.mobile,
@@ -78,6 +80,7 @@ export default createStore({
     getCookieConsent: (state) => state.cookieConsent,
     getAppHostname: (state) => state.flexsaleHostname,
     getFloatingDiv: (state) => state.dynamicFloatingDiv,
+
 
   }
 })
