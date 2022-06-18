@@ -3,9 +3,7 @@
         <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-150 + 'px' }">
             <div class="mob-menu-wrapper fx-js fx-col">
                 <ul>
-                    <li><router-link to="/">Home</router-link></li>
-                    <li><router-link to="/about">About</router-link></li>
-                    <li><router-link to="/careers">Careers</router-link></li>
+                    <li v-for="menu in menus" :key="menu.id"><router-link :to="menu.url">{{ menu.name }}</router-link></li>
                 </ul>
                 <div class="fx w-100 gap-8">
                     <a href="" class="w-50 signin a-button button-secondary">Login</a>
@@ -18,7 +16,7 @@
 <script>
 export default {
     name: 'MobileMenu',
-    props: ['menuActive', 'winHeight', 'desk']
+    props: ['menuActive', 'winHeight', 'desk', 'menus']
 }
 </script>
 <style lang="scss" scoped>
@@ -29,7 +27,7 @@ export default {
 }
 .mob-menu-wrapper{
     height: 100%;
-    padding: 50px 20px;
+    padding: 20px 20px 50px 20px;
 }
 ul{
     li{

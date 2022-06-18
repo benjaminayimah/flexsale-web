@@ -5,7 +5,7 @@
     <div class="sections-wrapper" :style="{ 'minHeight' : getWindowHeight + 'px' }">
       <router-view/>
     </div>
-    <cookie-consent />
+    <cookie-consent v-if="getCookieConsent" />
     <Footer />
   </div>
 </template>
@@ -18,7 +18,7 @@ import Footer from './components/includes/Footer.vue';
 export default {
     name: "App",
     components: { Header, TopInfoBar, CookieConsent, Footer },
-    computed: mapGetters(['getTablet', 'getMobile', 'getDesktop', 'getWindowHeight']),
+    computed: mapGetters(['getTablet', 'getMobile', 'getDesktop', 'getWindowHeight', 'getCookieConsent']),
     created() {
       this.$store.commit('computeWindow')
       window.addEventListener('resize', this.windowSize )
