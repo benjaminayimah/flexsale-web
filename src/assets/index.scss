@@ -113,8 +113,9 @@ h1,h2,h3{
     flex-grow: 1;
     padding: 0 20px;
     .policies-holder{
-        width: 70%;
-        padding: 50px 0;
+        width: 50%;
+        padding: 80px 0;
+        font-size: 1.3rem;
         h1 {
             font-size: 4.8rem;
         }
@@ -155,8 +156,8 @@ h1,h2,h3{
         }
     }
     .link-list{
+        color: $primary;
         li a {
-            color: $primary;
             text-decoration: underline;
         }
     }
@@ -176,6 +177,11 @@ h1,h2,h3{
     }
     #logo {
         margin-left: 8%;
+    }
+    .policies-wrapper{
+        .policies-holder{
+            width: 70%;
+        }
     }
 }
 
@@ -211,7 +217,7 @@ h1,h2,h3{
     }
     .policies-wrapper{
         .policies-holder{
-            padding: 30px 0;
+            padding: 40px 0;
             width: 100%;
             h1 {
                 font-size: 2.8rem;

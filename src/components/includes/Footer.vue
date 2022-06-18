@@ -63,6 +63,8 @@ footer{
             display: inline-block;
             a {
                 transition: 0.2s all;
+                font-weight: 500;
+                padding: 8px;
             }
             &:hover {
                 color: $primary;
