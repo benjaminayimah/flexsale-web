@@ -1,6 +1,6 @@
 <template>
     <transition name="slide-fade">
-        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-150 + 'px', top: getFloatingDiv.bottom + 'px'}">
+        <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-(100+getFloatingDiv.top) + 'px', top: getFloatingDiv.bottom + 'px'}">
             <div class="mob-menu-wrapper fx-js fx-col">
                 <ul>
                     <li v-for="menu in menus" :key="menu.id"><router-link :to="menu.url">{{ menu.name }}</router-link></li>
@@ -26,6 +26,7 @@ export default {
     position: fixed;
     width: 100%;
     background-color: rgb(255, 255, 255);
+    bottom: 0;
 }
 .mob-menu-wrapper{
     height: 100%;

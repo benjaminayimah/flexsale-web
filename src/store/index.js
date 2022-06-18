@@ -55,7 +55,7 @@ export default createStore({
       state.dynamicFloatingDiv.top = top
       state.dynamicFloatingDiv.bottom = bottom
       document.body.classList.add('fixed-body')
-      console.log(top + '_' + left +'_'+ bottom)
+      console.log(top + '_' +'_'+ bottom)
 
     },
     reSetDynamicFloatingDiv(state) {
