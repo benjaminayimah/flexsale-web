@@ -250,14 +250,16 @@ h1,h2,h3{
         padding: 0 25px;
         flex-direction: column;
         .banner-caption-wrapper{
-            width: 90%;
+            width: 98%;
             h1 {
                 font-size: 4rem;
+                text-align: center;
             }
             .caption-sub{
                 width: 100%;
                 font-size: 1.1rem;
                 color: $gray;
+                text-align: center;
             }
             a {
                 padding: 20px 24px;
