@@ -19,12 +19,12 @@ export default {
 <style lang="scss" scoped>
 #cookie_consent{
     position: fixed;
-    background-color: #fff;
     width: 410px;
     padding: 20px;
     right: 0;
     bottom: 0;
     .cookies-wrapper{
+        background-color: #fff;
         box-shadow: rgb(0 0 0 / 8%) 3px 8px 24px;
         border-radius: 16px;
         padding: 25px;
