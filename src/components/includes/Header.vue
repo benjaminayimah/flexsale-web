@@ -112,6 +112,7 @@ header{
   padding: 16px;
   height: 55px;
   width: 55px;
+  cursor: default;
 }
 .menu-toggle-in{
   svg{
