@@ -1,5 +1,9 @@
 <template>
-    <h1>Careers</h1>
+    <section class="policies-wrapper fx jc-c">
+        <div class="policies-holder">
+            <h1>Careers</h1>
+        </div>
+    </section>
 </template>
 <script>
 import scrollTopMixin from '../mixins/scrollTopMixin'

@@ -1,12 +1,11 @@
 <template>
-    <div class="policies-wrapper fx jc-c">
+    <section class="policies-wrapper fx jc-c">
         <div class="policies-holder">
             <h1>Privacy policy</h1>
-            <h4>Terms and Conditions (“Terms”)</h4>
             <h4 class="gray">Last updated: June 20, 2022</h4>
             <div class="p-section">
                 <p>
-                    This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <router-link to="/terms-and-conditions">flexsale.com/terms-and-conditions</router-link>
+                    This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <router-link to="/terms-and-conditions">flexsale.store/terms-and-conditions</router-link>
                 </p>
             </div>
             <div class="p-section">
@@ -14,7 +13,7 @@
                 <div class="p-section-sub">
                     <h3>Service</h3>
                     <p>
-                        Service is the websites and applications operated by Flexsale.com
+                        Service is the websites and applications operated by Flexsale.store
                     </p>
                 </div>
                 <div class="p-section-sub">
@@ -94,7 +93,7 @@
             </div>
             <div class="p-section">
                 <h2>Use of Data</h2>
-                <p>Flexsale.com  uses the collected data for various purposes:</p>
+                <p>Flexsale.store  uses the collected data for various purposes:</p>
                 <ul>
                     <li>To provide and maintain the Service</li>
                     <li>To notify you about changes to our Service</li>
@@ -117,7 +116,7 @@
                     Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.
                 </p>
                 <p>
-                    Flexsale.com will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
+                    Flexsale.store will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.
                 </p>
             </div>
             <div class="p-section">
@@ -127,11 +126,11 @@
                 <div class="p-section-sub">
                     <h3>Legal Requirements</h3>
                     <p>
-                        Flexsale.com may disclose your Personal Data in the good faith belief that such action is necessary to:
+                        Flexsale.store may disclose your Personal Data in the good faith belief that such action is necessary to:
                     </p>
                     <ul>
                         <li>To comply with a legal obligation</li>
-                        <li>To protect and defend the rights or property of <strong>flexsale.com</strong></li>
+                        <li>To protect and defend the rights or property of <strong>flexsale.store</strong></li>
                         <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
                         <li>To protect the personal safety of users of the Service or the public</li>
                         <li>To protect against legal liability</li>
@@ -173,7 +172,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
                 <p>If you have any questions about these Policies, please <router-link to="/">contact us.</router-link></p>
             </div>
         </div>
-    </div>
+    </section>
 </template>
 <script>
 import scrollTopMixin from '../mixins/scrollTopMixin'
