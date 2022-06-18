@@ -1,12 +1,12 @@
 <template>
-  <section id="home" class="fx jc-c ai-c" :style="{ 'minHeight': getWindowHeight-250 + 'px'}">
+  <section id="banner" class="fx jc-c ai-c" :style="{ 'minHeight': getWindowHeight-250 + 'px'}">
     <div class="banner-wrapper fx">
       <div class="fx-col banner-caption-wrapper gap-32">
         <h1><span>Lorem</span> amet Ipsum Dolor</h1>
         <div class="caption-sub">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
-        <div class="fx"><router-link to="" class="a-button button-primary">Create Free Account</router-link></div>
+        <div class="fx button-wrapper"><router-link to="" class="a-button button-primary">Create Free Account</router-link></div>
       </div>
-      <div>image</div>
+      <div class="banner-image">image</div>
     </div>
   </section>
 </template>
