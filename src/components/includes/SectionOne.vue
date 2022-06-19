@@ -38,7 +38,8 @@ export default {
         border-radius: 24px;
         height: 620px;
         width: 40%;
-        background-color: #3a53e3;
+        // background-image: linear-gradient(to right bottom, #3a53e3, #1e64e7, #0073e9, #0081e8, #208de5);
+        background-image: linear-gradient(to right bottom, #5348f4, #504ef4, #4e54f3, #4c5af2, #4b5ff1, #4567f2, #3f6ef3, #3c75f3, #337ff5, #2f89f6, #3191f6, #399af5);
         padding: 20px 50px;
         color: #fff;
         h1 {
