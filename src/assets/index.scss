@@ -11,6 +11,7 @@ $danger: #e63232;
 $success: #20C647;
 $warning: #EFB91C;
 $button-disabled: #9ea7d8;
+$bg-color: #F8F8FA;
 
 $myFont: 'Urbanist', Helvetica, sans-serif;
 
@@ -78,6 +79,7 @@ ul {
 }
 h1,h2,h3{
     margin: 0;
+    line-height: 1;
 }
 .fixed-body{
     overflow: hidden; overscroll-behavior-y: none;
@@ -112,7 +114,7 @@ h1,h2,h3{
 //policies
 
 .policies-wrapper{
-    background-color: #F8F8FA;
+    background-color: $bg-color;
     flex-grow: 1;
     padding: 0 20px;
     .policies-holder{
@@ -245,9 +247,9 @@ h1,h2,h3{
             font-size: 16px ;
         }
     }
-    .banner-wrapper{
+    .section-wrapper{
         width: 100%;
-        padding: 0 25px;
+        padding: 60px 20px;
         flex-direction: column;
         align-items: center;
         .banner-caption-wrapper{
@@ -268,6 +270,27 @@ h1,h2,h3{
             .button-wrapper{
                 justify-content: center;
             }
+        }
+        .features-col-1{
+            width: 100%;
+            height: auto;
+            padding: 30px 25px;
+            // flex-direction: row;
+            h1 {
+                font-size: 2.6rem;
+            }
+            .description{
+                width: 100%;
+                padding: 15px 0;
+            }
+            svg {
+                height: 50px;
+            }
+        }
+        .features {
+            height: 400px;
+            width: 100%;
+            gap: 14px;
         }
         .banner-image{
             width: 100%;
