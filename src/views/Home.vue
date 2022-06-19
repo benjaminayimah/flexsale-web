@@ -6,7 +6,7 @@
         <div class="caption-sub">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
         <div class="fx button-wrapper"><router-link to="" class="a-button button-primary">Create Free Account</router-link></div>
       </div>
-      <div class="banner-image">image</div>
+      <div class="banner-image fx ai-c"></div>
     </div>
   </section>
 </template>
@@ -43,5 +43,13 @@ export default {
     padding: 25px 28px;
     font-size: 1.1rem;
   }
+}
+.banner-image{
+  width: 30%;
+  flex-grow: 1;
+  background-image: url('../../public/img/banner-colors.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 </style>
