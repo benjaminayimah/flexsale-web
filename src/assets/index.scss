@@ -296,7 +296,7 @@ h1,h2,h3{
                 justify-content: center;
             }
         }
-        .features-col-1, .section-two-col-1, .section-three-col-1{
+        .features-col-1, .section-two-col-1{
             width: 100%;
             height: auto;
             padding: 30px 25px;
@@ -311,6 +311,10 @@ h1,h2,h3{
             svg {
                 height: 50px;
             }
+        }
+        .section-three-col-1{
+            height: auto;
+            padding: 30px 0;
         }
         .features {
             height: 400px;
