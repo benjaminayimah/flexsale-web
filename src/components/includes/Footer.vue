@@ -107,6 +107,7 @@ footer{
             font-size: 4.8rem;
             text-align: center;
             max-width: 600px;
+            line-height: 1;
             span {
                 color: $primary;
             }
