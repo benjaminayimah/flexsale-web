@@ -52,6 +52,11 @@ button,.a-button{
       background-color: $dark-light;
     }
 }
+.button-alt {
+    background-color: transparent;
+    color: $dark;
+    border: 2px solid $dark;
+}
 .gap-8{
     gap: 8px;
 }
@@ -80,6 +85,7 @@ ul {
 h1,h2,h3{
     margin: 0;
     line-height: 1;
+    font-weight: 600;
 }
 .fixed-body{
     overflow: hidden; overscroll-behavior-y: none;
@@ -100,6 +106,9 @@ h1,h2,h3{
     display: flex;
     flex-direction: column;
 }
+.grid {
+    display: grid;
+}
 .w-100{
     width: 100%;
 }
@@ -110,7 +119,15 @@ h1,h2,h3{
     position: sticky;
     -webkit-position: sticky;
 }
-
+.col-30 {
+    width: 30%;
+}
+.col-50 {
+    width: 50%;
+}
+.col-70 {
+    width: 70%;
+}
 //policies
 
 .policies-wrapper{
@@ -165,6 +182,13 @@ h1,h2,h3{
             color: $primary;
             text-decoration: underline;
         }
+    }
+}
+.col {
+    .description{
+        width: 75%;
+        padding: 20px 0;
+        font-size: 1.3rem;
     }
 }
 
@@ -272,7 +296,7 @@ h1,h2,h3{
                 justify-content: center;
             }
         }
-        .features-col-1{
+        .features-col-1, .section-two-col-1, .section-three-col-1{
             width: 100%;
             height: auto;
             padding: 30px 25px;
@@ -293,11 +317,19 @@ h1,h2,h3{
             width: 100%;
             gap: 14px;
         }
+
         .banner-image{
             width: 100%;
             height: 250px;
             margin: 30px 0;
         }
+        .section-two-col-2, .section-three-col-2{
+            width: 100%;
+            min-height: 200px;
+        }
+    }
+    .col-50{
+        width: 100%;
     }
     
 }
