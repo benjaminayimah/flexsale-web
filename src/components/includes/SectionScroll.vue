@@ -77,8 +77,8 @@ export default {
             gap: 32px;
             li {
                 color: #fff;
-                height: 400px;
-                width: 400px;
+                height: 450px;
+                width: 450px;
                 background-color: #fff;
                 border-radius: 24px;
                 padding: 30px;

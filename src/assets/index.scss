@@ -345,5 +345,15 @@ h1,h2,h3{
     .col-50{
         width: 100%;
     }
+    .list-content{
+        ul{
+            gap: 20px !important;
+            padding: 0 1% !important;
+            li {
+                height: 350px !important;
+                width: 350px !important;
+            }
+        }
+    }
     
 }
