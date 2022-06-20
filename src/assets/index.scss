@@ -102,6 +102,9 @@ h1,h2,h3{
 .fx-js{
     justify-content: space-between;
 }
+.fx-end{
+    justify-content: flex-end;
+}
 .fx-col{
     display: flex;
     flex-direction: column;
@@ -330,6 +333,15 @@ h1,h2,h3{
             width: 100%;
             min-height: 200px;
         }
+        .section-row{
+            max-width: 90%;
+            h1 {
+                font-size: 3rem;
+            }
+            .description{
+                width: 80%;
+            }
+        }
     }
     .section-cubes{
         width: 100%;
@@ -345,13 +357,15 @@ h1,h2,h3{
     .col-50{
         width: 100%;
     }
-    .list-content{
-        ul{
-            gap: 20px !important;
-            padding: 0 1% !important;
-            li {
-                height: 350px !important;
-                width: 350px !important;
+    .h-list-wrap{
+        .list-content{
+            ul{
+                gap: 20px;
+                padding: 0 1%;
+                li {
+                    height: 350px;
+                    width: 350px;
+                }
             }
         }
     }

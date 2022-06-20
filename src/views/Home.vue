@@ -5,6 +5,7 @@
   <section-three />
   <section-four />
   <section-scroll />
+  <section-row />
 </template>
 
 <script>
@@ -13,12 +14,13 @@ import { mapGetters } from 'vuex'
 import BannerSection from '../components/includes/BannerSection.vue'
 import SectionFour from '../components/includes/SectionFour.vue'
 import SectionOne from '../components/includes/SectionOne.vue'
+import SectionRow from '../components/includes/SectionRow.vue'
 import SectionScroll from '../components/includes/SectionScroll.vue'
 import SectionThree from '../components/includes/SectionThree.vue'
 import SectionTwo from '../components/includes/SectionTwo.vue'
 import scrollTopMixin from '../mixins/scrollTopMixin'
 export default {
-  components: { BannerSection, SectionOne, SectionTwo, SectionThree, SectionFour, SectionScroll },
+  components: { BannerSection, SectionOne, SectionTwo, SectionThree, SectionFour, SectionScroll, SectionRow },
   name: 'Home',
   computed: mapGetters(['getWindowHeight']),
   mixins: [scrollTopMixin]
