@@ -36,7 +36,6 @@ export default {
                 {id: 3, index: 3, color: 'linear-gradient(to right bottom, #e8ad2b, #e9b135, #ebb53e, #ecb846, #eebc4e, #eebe53, #edc157, #edc35c, #ebc55f, #e9c661, #e8c864, #e6c967)'},
                 {id: 4, index: 4, color: 'linear-gradient(to right bottom, #2cbab0, #2cc2b4, #2dcab9, #2fd2bc, #32dac0, #38dec3, #3ee1c6, #43e5c9, #4ae5cc, #52e4cf, #59e4d2, #60e3d4)'},
                 {id: 5, index: 2, color: 'linear-gradient(to right bottom, #b12fd0, #b737d6, #bd3fdc, #c447e2, #ca4ee8, #cd54e9, #d15aeb, #d460ec, #d466e9, #d46ce6, #d472e3, #d477e0)'},
-
             ],
         }
     }
