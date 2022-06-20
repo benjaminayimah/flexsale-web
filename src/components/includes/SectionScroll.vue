@@ -5,9 +5,18 @@
             <div class="list-hold">
                 <div class="list-content">
                     <ul>
-                        <li v-for="supplier in suppliersALT" :key="supplier.id" :style="{'backgroundImage': supplier.color}">
-                            <div class="coming-soon"><span>Coming soon</span></div>
-                            <h2>Invoicing</h2>
+                        <li class="fx-col fx-js" v-for="supplier in suppliersALT" :key="supplier.id" :style="{'backgroundImage': supplier.color}">
+                            <div>
+                                <div class="coming-soon"><span>Coming soon</span></div>
+                                <h2>Invoicing</h2>
+                            </div>
+                            <div class="fx fx-end">
+                                <div class="button">
+                                    <svg xmlns="http://www.w3.org/2000/svg"  height="20" viewBox="0 0 22.001 21.867">
+                                        <path d="M10805.638-10751.066h2v9.933h9.637v2h-9.637v9.935h-2v-9.935h-10.364v-2h10.364Z" transform="translate(-10795.273 10751.066)" fill="#0e142c"/>
+                                    </svg>
+                                </div>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -95,6 +104,14 @@ export default {
                     border: 1px solid #fff;
                     border-radius: 20px;
                 }
+            }
+            .button{
+                height: 45px;
+                width: 45px;
+                background-color: #fff;
+                border-radius: 50%;
+                display: grid;
+                place-items: center;
             }
         }
     }
