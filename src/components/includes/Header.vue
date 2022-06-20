@@ -67,6 +67,7 @@ export default {
 header{
   height: 100px;
   background-color: #ffffff;
+  z-index: 10;
   #nav {
     a {
       text-decoration: unset;
