@@ -331,6 +331,17 @@ h1,h2,h3{
             min-height: 200px;
         }
     }
+    .section-cubes{
+        width: 100%;
+        flex-direction: column;
+        padding: 60px 20px;
+        .cube{
+            height: 420px;
+        }
+        h1 {
+            font-size: 3rem;
+        }
+    }
     .col-50{
         width: 100%;
     }
