@@ -105,12 +105,20 @@ export default {
                 }
             }
             .button{
-                height: 45px;
-                width: 45px;
+                height: 40px;
+                width: 40px;
                 background-color: #fff;
                 border-radius: 50%;
                 display: grid;
                 place-items: center;
+                cursor: pointer;
+                transition: 0.2s all;
+                &:hover {
+                    background-color: $gray-light;
+                }
+                &:active {
+                    transform: scale(0.9);
+                }
             }
         }
     }

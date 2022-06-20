@@ -27,6 +27,7 @@ export default {
     width: 100%;
     background-color: rgb(255, 255, 255);
     bottom: 0;
+    z-index: 100;
 }
 .mob-menu-wrapper{
     height: 100%;
