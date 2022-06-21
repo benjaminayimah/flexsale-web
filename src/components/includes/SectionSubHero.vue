@@ -5,6 +5,7 @@
                 <div class="section-row fx-col ai-c gap-32">
                     <h1>Packed with cool features</h1>
                     <div class="description fx">Flexsale is comes with useful features with new features rolling out every month.</div>
+                    <div class="fx"><a href="#" class="a-button button-alt">Create Free Account</a></div>
                 </div>
             </div>
         </div>
