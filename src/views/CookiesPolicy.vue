@@ -82,19 +82,19 @@
                 </p>
                 <div class="link-list">
                     <ul>
-                        <li><a href="">Apple Safari</a></li>
-                        <li><a href="">Google Chrome</a></li>
-                        <li><a href="">Microsoft Edge</a></li>
-                        <li><a href="">Microsoft Internet Explorer</a></li>
-                        <li><a href="">Mozilla Firefox</a></li>
-                        <li><a href="">Opera</a></li>
-                        <li><a href="">Android (Chrome)</a></li>
-                        <li><a href="">Blackberry</a></li>
-                        <li><a href="">Iphone or Ipad (Chrome)</a></li>
-                        <li><a href="">Iphone or Ipad (Safari)</a></li>
+                        <li><a class="a-underline" href="">Apple Safari</a></li>
+                        <li><a class="a-underline" href="">Google Chrome</a></li>
+                        <li><a class="a-underline" href="">Microsoft Edge</a></li>
+                        <li><a class="a-underline" href="">Microsoft Internet Explorer</a></li>
+                        <li><a class="a-underline" href="">Mozilla Firefox</a></li>
+                        <li><a class="a-underline" href="">Opera</a></li>
+                        <li><a class="a-underline" href="">Android (Chrome)</a></li>
+                        <li><a class="a-underline" href="">Blackberry</a></li>
+                        <li><a class="a-underline" href="">Iphone or Ipad (Chrome)</a></li>
+                        <li><a class="a-underline" href="">Iphone or Ipad (Safari)</a></li>
                     </ul>
                     <p>
-                        In addition, you may opt-out of some third-party cookies through the <a href="">Network Advertising Initiative’s Opt-Out Tool.</a>
+                        In addition, you may opt-out of some third-party cookies through the <a class="a-underline" href="">Network Advertising Initiative’s Opt-Out Tool.</a>
                     </p>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                 <h2>
                     <strong>Contact Us</strong>
                 </h2>
-                <p>If you have any questions about these Cookie policy, please <router-link to="/">contact us.</router-link></p>
+                <p>If you have any questions about these Cookie policy, please <router-link class="a-underline" to="/">contact us.</router-link></p>
             </div>
             
             
