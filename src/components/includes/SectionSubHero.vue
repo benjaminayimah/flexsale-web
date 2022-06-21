@@ -37,7 +37,7 @@ export default {
     .uni-col{
         background-color: #fff;
         border-radius: 24px;
-        padding: 80px 0;
+        padding: 80px 30px;
         min-height: 600px;
     }
 }
