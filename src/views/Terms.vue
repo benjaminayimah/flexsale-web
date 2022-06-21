@@ -6,7 +6,7 @@
             <h4 class="gray">Last updated: June 20, 2022</h4>
             <div class="p-section">
                 <p>
-                    Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the <strong>Flexsale App</strong> (the “Service”) operated by <a :href="getHostname">Flexsale.store</a> (“us”, “we”, or “our”). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. 
+                    Please read these Terms and Conditions (“Terms”, “Terms and Conditions”) carefully before using the <strong>Flexsale App</strong> (the “Service”) operated by <a class="a-underline" :href="getHostname">Flexsale.store</a> (“us”, “we”, or “our”). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service. By accessing or using the Service you agree to be bound by these Terms. If you disagree with any part of the terms, then you may not access the Service. 
                 </p>
             </div>
             <div class="p-section">
@@ -72,7 +72,7 @@
                 <h2>
                     <strong>Contact Us</strong>
                 </h2>
-                <p>If you have any questions about these Terms, please <router-link to="/">contact us.</router-link></p>
+                <p>If you have any questions about these Terms, please <router-link class="a-underline" to="/">contact us.</router-link></p>
             </div>
 
         </div>

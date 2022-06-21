@@ -56,6 +56,10 @@ button,.a-button{
     background-color: transparent;
     color: $dark;
     border: 2px solid $dark;
+    &:hover {
+        background-color: $dark;
+        color: #fff;
+    }
 }
 .gap-8{
     gap: 8px;
@@ -131,8 +135,45 @@ h1,h2,h3{
 .col-70 {
     width: 70%;
 }
-//policies
 
+
+.a-underline{
+    position: relative;
+    text-decoration: none;
+    transition: 0.3s all;
+    color: inherit;
+    &::before {
+        content: '';
+        height: 1px;
+        background-color: rgb(203, 205, 211);
+        width: 100%;
+        position: absolute;
+        bottom: -1px;
+    }
+        &::after {
+        content: '';
+        height: 1px;
+        background-color: $primary;
+        width: 0%;
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        transition: 0.3s all;
+    }
+    &:hover {
+        color: $primary;
+        &::after {
+            content: '';
+            height: 1px;
+            background-color: $primary;
+            width: 100%;
+            position: absolute;
+            bottom: -1px;
+            left: 0;
+        }
+    }
+}
+//terms, policies
 .policies-wrapper{
     background-color: $bg-color;
     flex-grow: 1;
@@ -150,7 +191,6 @@ h1,h2,h3{
         p {
             line-height: 2;
             a{
-                color: $primary;
                 font-weight: 500;
             }
         }
@@ -180,12 +220,7 @@ h1,h2,h3{
             line-height: 1.8;
         }
     }
-    .link-list{
-        li, a {
-            color: $primary;
-            text-decoration: underline;
-        }
-    }
+    
 }
 .col {
     .description{

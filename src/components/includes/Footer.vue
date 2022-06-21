@@ -30,7 +30,7 @@
                 </li>
             </ul>
             <ul class="footer-links">
-                <li v-for="link in links" :key="link.id"><router-link :to="link.url">{{ link.name }}</router-link><i class="separator-dot"></i></li>
+                <li v-for="link in links" :key="link.id"><router-link class="a-underline" :to="link.url">{{ link.name }}</router-link><i class="separator-dot"></i></li>
             </ul>
             <span class="copyright">© 2022 Flexsale. All Rights Reserved.</span>
         </div>
@@ -62,15 +62,15 @@ footer{
         text-align: center;
         li {
             display: inline-block;
-            a {
-                transition: 0.2s all;
-                font-weight: 500;
-                padding: 8px;
-            }
-            &:hover {
-                color: $primary;
-                text-decoration: underline;
-            }
+            // a {
+            //     transition: 0.2s all;
+            //     font-weight: 500;
+            //     padding: 8px;
+            // }
+            // &:hover {
+            //     color: $primary;
+            //     text-decoration: underline;
+            // }
             &:last-child {
                 i {
                     display: none;

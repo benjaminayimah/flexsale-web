@@ -5,7 +5,7 @@
             <h4 class="gray">Last updated: June 20, 2022</h4>
             <div class="p-section">
                 <p>
-                    This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <router-link to="/terms-and-conditions">flexsale.store/terms-and-conditions</router-link>
+                    This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from <router-link class="a-underline" to="/terms-and-conditions">flexsale.store/terms-and-conditions</router-link>
                 </p>
             </div>
             <div class="p-section">
@@ -87,7 +87,7 @@
                             <li><strong>Preference Cookies.</strong>We use Preference Cookies to remember your preferences and various settings.</li>
                             <li><strong>Security Cookies.</strong>We use Security Cookies for security purposes.</li>
                         </ul>
-                        <p>Read more about our <router-link to="/cookies-policy">cookie policy.</router-link></p>
+                        <p>Read more about our <router-link class="a-underline" to="/cookies-policy">cookie policy.</router-link></p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ You are advised to review this Privacy Policy periodically for any changes. Chan
                 <h2>
                     <strong>Contact Us</strong>
                 </h2>
-                <p>If you have any questions about these Policies, please <router-link to="/">contact us.</router-link></p>
+                <p>If you have any questions about these Policies, please <router-link class="a-underline" to="/">contact us.</router-link></p>
             </div>
         </div>
     </section>

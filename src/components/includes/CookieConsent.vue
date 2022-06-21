@@ -3,7 +3,7 @@
         <div class="cookies-wrapper fx-col">
             <h2>🍪Cookies!</h2>
             <div class="cookies-body">
-                This website uses <router-link to="/cookies-policy">cookies</router-link> to ensure you get the best browsing experience.
+                This website uses <router-link to="/cookies-policy" class="a-underline">cookies</router-link> to ensure you get the best browsing experience.
             </div>
             <div class="cookie-bottom fx">
                 <button class="button button-primary" @click.prevent="this.$store.commit('setCookie')">OK</button>
@@ -38,7 +38,6 @@ export default {
         font-size: 17px;
         line-height: 1.4;
         a {
-            color: $primary;
             font-weight: 600;
         }
     }
