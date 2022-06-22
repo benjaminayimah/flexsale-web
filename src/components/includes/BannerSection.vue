@@ -1,5 +1,5 @@
 <template>
-    <section id="banner" class="fx jc-c ai-c" :style="{ 'minHeight': winHeight-250 + 'px'}">
+    <section id="banner" class="fx jc-c ai-c" :style="{ 'minHeight': winHeight-150 + 'px'}">
         <div class="section-wrapper fx">
             <div class="fx-col banner-caption-wrapper gap-32">
                 <h1><span>A Smart</span> way to manage your inventory.</h1>
