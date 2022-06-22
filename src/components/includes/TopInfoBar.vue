@@ -1,7 +1,7 @@
 <template>
     <div class="top-wrapper">
-        <span>For a guide and recipes on how to configure / customize this project.</span>
-        <a href="#">Learn more</a>
+        <span>You can now install flexsale app on all platforms.</span>
+        <a class="a-underline" href="#">Learn more</a>
     </div>
 </template>
 <script>
@@ -29,6 +29,15 @@ export default {
         white-space: nowrap;
         margin-left: 8px;
     }
-    
+    .a-underline {
+        color: inherit;
+        &::before {
+            background-color: rgb(172, 180, 204);
+        }
+        &::after {
+            background-color: #fff !important;
+        }
+        
+    }
 }
 </style>
