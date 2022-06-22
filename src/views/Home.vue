@@ -1,5 +1,5 @@
 <template>
-  <banner-section v-bind:winHeight="getWindowHeight" />
+  <banner-section v-bind:winHeight="getWindowHeight" v-bind:appHostname="getAppHostname"/>
   <section-one />
   <section-two />
   <section-three />
@@ -24,7 +24,7 @@ import scrollTopMixin from '../mixins/scrollTopMixin'
 export default {
   components: { BannerSection, SectionOne, SectionTwo, SectionThree, SectionFour, SectionScroll, SectionRow, SectionSubHero },
   name: 'Home',
-  computed: mapGetters(['getWindowHeight']),
+  computed: mapGetters(['getWindowHeight', 'getAppHostname']),
   mixins: [scrollTopMixin]
 }
 </script>

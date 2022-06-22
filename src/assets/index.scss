@@ -150,25 +150,21 @@ h1,h2,h3{
         position: absolute;
         bottom: -1px;
     }
-        &::after {
+    &::after {
         content: '';
         height: 1px;
         background-color: $primary;
         width: 0%;
         position: absolute;
         bottom: -1px;
-        left: 0;
+        left: 50%;
         transition: 0.3s all;
     }
     &:hover {
         color: $primary;
         &::after {
             content: '';
-            height: 1px;
-            background-color: $primary;
             width: 100%;
-            position: absolute;
-            bottom: -1px;
             left: 0;
         }
     }
@@ -187,6 +183,7 @@ h1,h2,h3{
         }
         .gray{
             color: gray;
+            font-weight: 500;
         }
         p {
             line-height: 2;
@@ -214,6 +211,11 @@ h1,h2,h3{
         .mini-list {
             p:first-child{
                 margin-bottom: 8px;
+            }
+        }
+        .link-list{
+            li a {
+                font-weight: 500;
             }
         }
         ul li {

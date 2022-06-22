@@ -75,6 +75,7 @@ header{
       color: $dark;
       font-weight: 500;
       border-radius: 30px;
+      transition: 0.3s all;
         &:hover {
           background-color: $gray-light;
         }

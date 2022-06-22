@@ -4,7 +4,7 @@
             <div class="fx-col banner-caption-wrapper gap-32">
                 <h1><span>A Smart</span> way to manage your inventory.</h1>
                 <div class="caption-sub">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</div>
-                <div class="fx button-wrapper"><router-link to="" class="a-button button-primary">Create Free Account</router-link></div>
+                <div class="fx button-wrapper"><a :href="appHostname+'/signup'" class="a-button button-primary">Create Free Account</a></div>
             </div>
             <div class="banner-image fx ai-c">
                 <img src="../../../public/img/home-page.svg" alt="">
@@ -15,7 +15,7 @@
 <script>
 export default {
     name: 'BannerSection',
-    props: ['winHeight']
+    props: ['winHeight', 'appHostname']
 }
 </script>
 <style lang="scss" scoped>
