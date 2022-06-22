@@ -62,15 +62,9 @@ footer{
         text-align: center;
         li {
             display: inline-block;
-            // a {
-            //     transition: 0.2s all;
-            //     font-weight: 500;
-            //     padding: 8px;
-            // }
-            // &:hover {
-            //     color: $primary;
-            //     text-decoration: underline;
-            // }
+            a {
+               font-size: 17px;
+            }
             &:last-child {
                 i {
                     display: none;
@@ -123,6 +117,7 @@ footer{
     }
     .copyright{
         color: $gray;
+        font-size: 17px;
     }
 }
 </style>
