@@ -5,7 +5,7 @@
             <div class="list-hold">
                 <div class="list-content">
                     <ul>
-                        <scroll-list v-for="commingsoon in CommingSoons" :key="commingsoon.id" v-bind:commingsoon="commingsoon" />
+                        <scroll-list v-for="comingsoon in ComingSoons" :key="comingsoon.id" v-bind:comingsoon="comingsoon" />
                     </ul>
                 </div>
             </div>
@@ -20,12 +20,12 @@ export default {
     name: 'SectionScroll',
     data () {
         return {
-            CommingSoons: [
-                {id: 1, index: 0, color: 'linear-gradient(to right bottom, #d02fa5, #d637ac, #dc3fb4, #e247bb, #e84ec3, #eb54c9, #ed59cf, #f05fd5, #ef64db, #ef69e1, #ee6ee7, #ed73ed)'},
-                {id: 2, index: 1, color: 'linear-gradient(to right bottom, #2f60d0, #3767d6, #3f6edc, #4775e2, #4e7ce8, #5281ea, #5686ec, #5a8bee, #5d8eec, #6092ea, #6395e8, #6798e6)'},
-                {id: 3, index: 3, color: 'linear-gradient(to right bottom, #e8ad2b, #e9b135, #ebb53e, #ecb846, #eebc4e, #eebe53, #edc157, #edc35c, #ebc55f, #e9c661, #e8c864, #e6c967)'},
-                {id: 4, index: 4, color: 'linear-gradient(to right bottom, #2cbab0, #2cc2b4, #2dcab9, #2fd2bc, #32dac0, #38dec3, #3ee1c6, #43e5c9, #4ae5cc, #52e4cf, #59e4d2, #60e3d4)'},
-                {id: 5, index: 2, color: 'linear-gradient(to right bottom, #b12fd0, #b737d6, #bd3fdc, #c447e2, #ca4ee8, #cd54e9, #d15aeb, #d460ec, #d466e9, #d46ce6, #d472e3, #d477e0)'},
+            ComingSoons: [
+                {id: 1, index: 0, bg: '#d02fa5', color: 'linear-gradient(to right bottom, #d02fa5, #d637ac, #dc3fb4, #e247bb, #e84ec3, #eb54c9, #ed59cf, #f05fd5, #ef64db, #ef69e1, #ee6ee7, #ed73ed)'},
+                {id: 2, index: 1, bg: '#2f60d0', color: 'linear-gradient(to right bottom, #2f60d0, #3767d6, #3f6edc, #4775e2, #4e7ce8, #5281ea, #5686ec, #5a8bee, #5d8eec, #6092ea, #6395e8, #6798e6)'},
+                {id: 3, index: 3, bg: '#e8ad2b', color: 'linear-gradient(to right bottom, #e8ad2b, #e9b135, #ebb53e, #ecb846, #eebc4e, #eebe53, #edc157, #edc35c, #ebc55f, #e9c661, #e8c864, #e6c967)'},
+                {id: 4, index: 4, bg: '#2cbab0', color: 'linear-gradient(to right bottom, #2cbab0, #2cc2b4, #2dcab9, #2fd2bc, #32dac0, #38dec3, #3ee1c6, #43e5c9, #4ae5cc, #52e4cf, #59e4d2, #60e3d4)'},
+                {id: 5, index: 2, bg: '#b12fd0', color: 'linear-gradient(to right bottom, #b12fd0, #b737d6, #bd3fdc, #c447e2, #ca4ee8, #cd54e9, #d15aeb, #d460ec, #d466e9, #d46ce6, #d472e3, #d477e0)'},
             ],
         }
     }

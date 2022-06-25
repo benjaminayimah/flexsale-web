@@ -1,12 +1,16 @@
 <template>
-    <li class="fx-col fx-js" :class="{ 'show-overlay' : showOverlay}" :style="{'backgroundImage': commingsoon.color}">
-        <div class="card-overlay"></div>
-        <div class="content-holder">
-            <div class="coming-soon"><span>Coming soon</span></div>
+    <li class="fx-col fx-js" :class="{ 'show-overlay' : showOverlay}" :style="{'backgroundImage': comingsoon.color}">
+        <div class="card-overlay" :style="{'backgroundColor' : comingsoon.bg }">
             <h2>Invoicing</h2>
+            <div class="o-body fx ai-c">Multiple Device Access
+Flexsale is comes with useful features with new features rolling out every month.</div>
+        </div>
+        <div class="content-holder">
+            <h2>Invoicing</h2>
+            <div class="coming-soon"><span>Coming soon</span></div>
             <div class="button" @click="toggleOverlay">
-                <svg xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 22.001 21.867">
-                    <path d="M10805.638-10751.066h2v9.933h9.637v2h-9.637v9.935h-2v-9.935h-10.364v-2h10.364Z" transform="translate(-10795.273 10751.066)" fill="#0e142c"/>
+                <svg xmlns="http://www.w3.org/2000/svg" height="17" viewBox="0 0 22 21.867">
+                    <path d="M11318.14-10071.065h3v9.434h9.135v3h-9.135v9.434h-3v-9.434h-9.865v-3h9.865Z" transform="translate(-11308.274 10071.065)" :fill="showOverlay ? comingsoon.bg : '#434752'"/>
                 </svg>
             </div>
         </div>
@@ -15,7 +19,7 @@
 <script>
 export default {
     name: 'SectionScrollList',
-    props: ['commingsoon'],
+    props: ['comingsoon'],
     data () {
         return {
             showOverlay: false
@@ -39,13 +43,14 @@ li {
 }
 .coming-soon{
     display: flex;
-    margin-bottom: 15px;
+    margin-top: 15px;
     span {
         display: flex;
-        font-size: 13px;
-        padding: 6px 10px;
+        font-size: 12px;
+        padding: 4px 7px;
         border: 1px solid #fff;
         border-radius: 20px;
+        font-weight: 500;
     }
 }
 .button{
@@ -81,6 +86,16 @@ li {
     transition: 0.5s all;
     opacity: 0;
     visibility: hidden;
+    padding: 30px;
+    .o-body{
+        height: 100%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: 0.5s all;
+        line-height: 1.4;
+    }
 }
 .show-overlay {
     .card-overlay{
@@ -89,6 +104,10 @@ li {
     }
     .button{
         transform: rotate(45deg);
+    }
+    .o-body{
+        opacity: 1;
+        transform: translateY(0px);
     }
 }
 </style>
