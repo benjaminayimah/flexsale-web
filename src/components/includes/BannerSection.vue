@@ -7,7 +7,7 @@
                 <div class="fx button-wrapper"><a :href="appHostname+'/signup'" class="a-button button-primary">Create Free Account</a></div>
             </div>
             <div class="banner-image fx ai-c">
-                <img src="../../../public/img/home-banner.svg" alt="">
+                <img src="../../../public/img/home-banner.webp" alt="">
             </div>
         </div>
     </section>
@@ -50,7 +50,7 @@ export default {
 //   background-repeat: no-repeat;
 //   background-position: 50% 50%;
   img {
-    height: 100%;
+    width: 130%;
   }
 }
 </style>
