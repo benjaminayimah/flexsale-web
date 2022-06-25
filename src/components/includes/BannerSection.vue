@@ -24,7 +24,7 @@ export default {
     width: 80%;
 }
 .banner-caption-wrapper{
-  width: 55%;
+  width: 50%;
   h1 {
     font-size: 6rem;
     line-height: 1;
@@ -43,7 +43,7 @@ export default {
   }
 }
 .banner-image{
-  width: 30%;
+  width: 50%;
   flex-grow: 1;
 //   background-image: url('../../../public/img/banner-colors.png');
 //   background-size: cover;
