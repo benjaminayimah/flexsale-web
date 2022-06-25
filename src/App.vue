@@ -50,6 +50,7 @@ body {
   font-size: 18px;
   margin: 0 ;
   overflow-x: hidden;
+  line-height: 1.4;
 }
 
 
