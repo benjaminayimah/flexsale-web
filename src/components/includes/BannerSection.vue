@@ -49,10 +49,6 @@ export default {
 .banner-image{
   width: 50%;
   flex-grow: 1;
-//   background-image: url('../../../public/img/banner-colors.png');
-//   background-size: cover;
-//   background-repeat: no-repeat;
-//   background-position: 50% 50%;
   img {
     width: 130%;
   }

@@ -141,7 +141,8 @@ h1,h2,h3{
     position: relative;
     text-decoration: none;
     transition: 0.3s all;
-    color: inherit;
+    color: $dark;
+    font-weight: 500;
     &::before {
         content: '';
         height: 1px;
@@ -412,3 +413,6 @@ h1,h2,h3{
     
     
 }
+
+//transitions
+

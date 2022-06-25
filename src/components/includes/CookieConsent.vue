@@ -1,19 +1,38 @@
 <template>
-    <div id="cookie_consent">
+    <div id="cookie_consent" v-if="!hasCookie">
         <div class="cookies-wrapper fx-col">
             <h2>🍪Cookies!</h2>
             <div class="cookies-body">
                 This website uses <router-link to="/cookies-policy" class="a-underline">cookies</router-link> to ensure you get the best browsing experience.
             </div>
             <div class="cookie-bottom fx">
-                <button class="button button-primary" @click.prevent="this.$store.commit('setCookie')">OK</button>
+                <button class="button button-primary" @click.prevent="setCookie">OK</button>
             </div>
         </div>
     </div>
 </template>
 <script>
 export default {
-    name: 'CookieConsent'
+    name: 'CookieConsent',
+    data() {
+        return {
+            hasCookie: false
+        }
+    },
+    created() {
+        this.checkCookie()
+    },
+    methods: {
+        checkCookie: function() {
+            const cookie = localStorage.getItem('fs-cookie-consent')
+            if(cookie)
+            this.hasCookie = true 
+        },
+        setCookie: function() {
+            localStorage.setItem('fs-cookie-consent', true)
+            this.hasCookie = true
+        }
+    }
 }
 </script>
 <style lang="scss" scoped>

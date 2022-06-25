@@ -9,14 +9,10 @@ export default createStore({
     desktop: false,
     windowHeight: '',
     windowWidth: '',
-    cookieConsent: true,
     dynamicFloatingDiv: { left: 0, top: 0, bottom: 0},
 
   },
   mutations: {
-    setCookie(state) {
-      state.cookieConsent = false
-    },
     computeWindow(state) {
       let appWidth = 990
       let winWidth = window.innerWidth
