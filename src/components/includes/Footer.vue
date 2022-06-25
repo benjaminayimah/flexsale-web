@@ -7,7 +7,7 @@
                 <a :href="getAppHostname+'/signup'" class="a-button button-primary">Create Free Account</a>
             </div>
             <hr>
-            <a title="Contact us" href="mailto:info@flexsale.store" class="a-underline email-link">info@flexsale.store</a>
+            <a title="Email us" href="mailto:info@flexsale.store" class="a-underline email-link">info@flexsale.store</a>
             <ul class="social-list fx gap-8">
                 <li>
                     <a href="">
