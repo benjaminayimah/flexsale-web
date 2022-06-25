@@ -7,7 +7,7 @@
                 <div class="fx button-wrapper"><a :href="appHostname+'/signup'" class="a-button button-primary">Create Free Account</a></div>
             </div>
             <div class="banner-image fx ai-c">
-                <img src="../../../public/img/home-banner.webp" alt="">
+                <img src="../../../public/img/home-banner.svg" alt="">
             </div>
         </div>
     </section>
