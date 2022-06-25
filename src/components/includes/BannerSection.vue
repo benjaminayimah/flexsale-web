@@ -50,7 +50,7 @@ export default {
 //   background-repeat: no-repeat;
 //   background-position: 50% 50%;
   img {
-    width: 100%;
+    width: 130%;
   }
 }
 </style>
