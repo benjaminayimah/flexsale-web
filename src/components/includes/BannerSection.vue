@@ -33,7 +33,7 @@ export default {
     }
   }
   .caption-sub{
-    width: 70%;
+    width: 80%;
     font-size: 1.3rem;
     color: $gray;
   }
