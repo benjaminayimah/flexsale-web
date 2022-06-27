@@ -1,5 +1,5 @@
 <template>
-    <section id="features_overview" class="fx jc-c">
+    <section class="fx jc-c gray-bg">
         <div class="section-wrapper fx">
             <div class="fx-col jc-c col features-col-1">
                 <!-- <div> -->
@@ -31,9 +31,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#features_overview{
-    background-color: $bg-color;
-}
 .section-wrapper{
     width: 80%;
     padding: 80px 0;
@@ -50,28 +47,29 @@ export default {
         }
     }
     .features {
+        background-color: #fff;
         width: 60%;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
+        border-radius: 24px;
         .grid-item{
-            background-color: #fff;
             border-radius: 24px;
+            padding: 20px;
         }
         .grid {
-            gap: 10px;
-            padding: 15px;
+            gap: 20px;
             .item-1 {
                 grid-column: 1 / span 2;
                 grid-row: 1;
             }
-            // .item-2 {
-            // }
-            // .item-3 {
-            // }
+            .item-2 {
+            }
+            .item-3 {
+            }
         }
         .grid-sub{
             border-radius: 12px;
-            // background-color: $gray-light;
+            background-color: #F2F2F7;
         }
     }
 }

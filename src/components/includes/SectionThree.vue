@@ -1,5 +1,5 @@
 <template>
-    <section id="section_three" class="fx jc-c">
+    <section class="fx jc-c gray-bg">
         <div class="section-wrapper gap-32 fx">
             <div class="fx-col jc-c section-three-col-1 col-50 col">
                 <h1>Multiple Device Access</h1>
@@ -18,9 +18,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#section_three{
-    background-color: $bg-color;
-}
 .section-wrapper{
     width: 80%;
     padding: 80px 0;

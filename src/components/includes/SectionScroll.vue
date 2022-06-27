@@ -1,5 +1,5 @@
 <template>
-<section id="section_scroll" class="fx jc-c">
+<section class="fx jc-c gray-bg">
    <div class="h-list-wrap">
         <div class="overview">
             <div class="list-hold">
@@ -32,9 +32,7 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#section_scroll{
-    background-color: $bg-color;
-}
+
 .h-list-wrap{
     display: block;
     overflow-y: hidden;

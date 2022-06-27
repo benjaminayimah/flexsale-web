@@ -135,8 +135,9 @@ h1,h2,h3{
 .col-70 {
     width: 70%;
 }
-
-
+.mt-0{
+    margin-top: 0 ;
+}
 .a-underline{
     position: relative;
     text-decoration: none;
@@ -169,6 +170,9 @@ h1,h2,h3{
             left: 0;
         }
     }
+}
+.gray-bg{
+    background-color: $bg-color;
 }
 //terms, policies
 .policies-wrapper{
@@ -408,6 +412,10 @@ h1,h2,h3{
                 }
             }
         }
+    }
+    .grid {
+        display: flex;
+        flex-direction: column;
     }
     
     

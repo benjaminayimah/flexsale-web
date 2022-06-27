@@ -1,5 +1,5 @@
 <template>
-    <section id="section_four" class="fx jc-c">
+    <section class="fx jc-c gray-bg">
         <div class="section-cubes gap-32 fx">
             <div class="fx-col jc-c col-50 cube cube-1">
                 <div>
@@ -23,9 +23,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#section_four{
-    background-color: $bg-color;
-}
 .section-cubes {
     width: 70%;
     padding: 80px 0;

@@ -1,5 +1,5 @@
 <template>
-    <section id="section_sub_hero" class="fx jc-c">
+    <section class="fx jc-c gray-bg">
         <div class="section-wrapper fx-col">
             <div class="uni-col w-100 fx jc-c">
                 <div class="section-row fx-col ai-c gap-32">
@@ -17,9 +17,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-#section_sub_hero{
-    background-color: $bg-color;
-}
 .section-wrapper{
     width: 80%;
     padding: 80px 0;
