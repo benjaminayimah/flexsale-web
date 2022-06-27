@@ -45,7 +45,7 @@ export default {
     z-index: 101;
     .cookies-wrapper{
         background-color: #fff;
-        box-shadow: rgb(0 0 0 / 8%) 3px 8px 24px;
+        box-shadow: rgb(0 0 0 / 9%) 3px 8px 50px;
         border-radius: 16px;
         padding: 25px;
         gap: 14px;
