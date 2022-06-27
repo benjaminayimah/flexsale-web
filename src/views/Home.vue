@@ -1,8 +1,8 @@
 <template>
   <banner-section v-bind:winHeight="getWindowHeight" v-bind:appHostname="getAppHostname"/>
   <section-row v-bind:payload="rowWithImage" />
-  <section-two />
   <section-features-overview />
+  <section-two />
   <!-- <section-one /> -->
   <section-three />
   <section-four />
@@ -31,7 +31,7 @@ export default {
   mixins: [scrollTopMixin],
   data() {
     return {
-      rowWithImage : { title: 'Multiple Device Access', description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.', image: 'multi-device.svg'},
+      rowWithImage : { title: 'Multiple Device Access', description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.', image: true},
       rowNoImage : { title: 'Packed with cool features', description: 'Flexsale is comes with useful features with new features rolling out every month.'}
     }
   }

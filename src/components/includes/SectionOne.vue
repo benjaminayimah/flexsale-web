@@ -33,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .section-wrapper{
     width: 80%;
-    padding: 80px 0;
+    padding-top: 80px;
     gap: 30px;
     .features-col-1{
         border-radius: 24px;

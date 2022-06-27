@@ -38,7 +38,7 @@ export default {
     overflow-y: hidden;
     align-items: stretch;
     position: relative;
-    padding: 80px 0;
+    padding-top: 80px;
     .overview{
         display: flex;
         flex-direction: column;
