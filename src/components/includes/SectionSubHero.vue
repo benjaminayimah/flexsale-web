@@ -19,7 +19,7 @@ export default {
 <style lang="scss" scoped>
 .section-wrapper{
     width: 80%;
-    padding: 80px 0;
+    padding-top: 80px;
     .section-row{
         max-width: 40%;
         text-align: center;

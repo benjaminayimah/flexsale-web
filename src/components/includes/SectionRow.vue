@@ -7,7 +7,7 @@
             </div>
             
             <div v-if="payload.image" class="hero-image-holdr">
-                <img :src="getHostname+'/img/'+payload.image" alt="">
+                <img src="../../../public/img/multi-device.svg" alt="Multiple Device Access">
             </div>
         </div>
     </section>
@@ -23,7 +23,7 @@ export default {
 <style lang="scss" scoped>
 .section-wrapper{
     width: 80%;
-    padding: 140px 0;
+    padding-top: 80px;
     gap: 30px;
     .section-row{
         max-width: 40%;

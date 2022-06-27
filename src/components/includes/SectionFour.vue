@@ -25,7 +25,7 @@ export default {
 <style lang="scss" scoped>
 .section-cubes {
     width: 70%;
-    padding: 80px 0;
+    padding-top: 80px;
         .cube{
             height: 600px;
             padding: 20px 60px;
