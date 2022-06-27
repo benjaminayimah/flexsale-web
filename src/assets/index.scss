@@ -61,6 +61,13 @@ button,.a-button{
         color: #fff;
     }
 }
+.sections-wrapper section{
+    &:last-child {
+        .section-wrapper {
+            margin-bottom: 80px;
+        }
+    }
+}
 .gap-8{
     gap: 8px;
 }
@@ -381,7 +388,7 @@ h1,h2,h3{
                 font-size: 3rem;
             }
             .description{
-                width: 80%;
+                width: 95%;
             }
         }
     }

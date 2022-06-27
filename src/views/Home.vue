@@ -7,8 +7,8 @@
   <section-three />
   <section-four />
   <section-scroll />
-  <section-row v-bind:payload="rowNoImage" />
   <section-sub-hero />
+  <section-row v-bind:payload="rowNoImage" />
 </template>
 
 <script>
