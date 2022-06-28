@@ -66,7 +66,7 @@ export default {
         height: 100%;
         align-items: stretch;
         ul{
-            padding: 0 6%;
+            padding: 0 7%;
             display: flex;
             flex-direction: row;
             margin: 0;
