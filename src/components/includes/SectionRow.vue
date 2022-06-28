@@ -1,7 +1,7 @@
 <template>
     <section class="fx jc-c gray-bg">
         <div class="section-wrapper fx-col ai-c">
-            <div class="section-row fx-col ai-c gap-32">
+            <div class="section-row fx-col ai-c gap-16">
                  <h1>{{ payload.title }}</h1>
                 <div class="description fx">{{ payload.description }}</div>
             </div>
