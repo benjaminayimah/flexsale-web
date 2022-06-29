@@ -125,79 +125,80 @@
                 <div class="grid-item item-4 fx-col ai-c jc-c">
                     <h3>Activities log</h3>
                     <div>
-                       <svg xmlns="http://www.w3.org/2000/svg" width="230.636" height="233.537" viewBox="0 0 230.636 233.537">
-                            <g id="Group_4387" data-name="Group 4387" transform="translate(-1072 -2718.114)">
-                                <g id="Group_4384" data-name="Group 4384" transform="translate(-11)">
-                                <g id="Group_4381" data-name="Group 4381" transform="translate(0 -39.886)">
-                                    <circle id="Ellipse_819" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#4ad991"/>
-                                    <g id="Group_4380" data-name="Group 4380" transform="translate(-843.478 1279.836)">
-                                    <g id="profile" transform="translate(1938.83 1491.5)">
-                                        <circle id="Ellipse_774" data-name="Ellipse 774" cx="3.833" cy="3.833" r="3.833" transform="translate(6.805 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-                                        <path id="Path_2001" data-name="Path 2001" d="M11.234,6.5C5.582,6.5,1,10.686,1,15.85H21.467C21.467,10.686,16.886,6.5,11.234,6.5Z" transform="translate(-1 5.402)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="230.636" height="233.537" viewBox="0 0 230.636 233.537">
+                        <g id="Group_4387" data-name="Group 4387" transform="translate(-1072 -2718.114)">
+                            <g id="Group_4384" data-name="Group 4384" transform="translate(-11)">
+                            <g id="Group_4381" data-name="Group 4381" transform="translate(0 -39.886)">
+                                <circle id="Ellipse_819" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#4ad991"/>
+                                <g id="Group_4380" data-name="Group 4380" transform="translate(-843.478 1279.836)">
+                                <g id="profile" transform="translate(1938.83 1491.5)">
+                                    <circle id="Ellipse_774" data-name="Ellipse 774" cx="3.833" cy="3.833" r="3.833" transform="translate(6.805 0)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                    <path id="Path_2001" data-name="Path 2001" d="M11.234,6.5C5.582,6.5,1,10.686,1,15.85H21.467C21.467,10.686,16.886,6.5,11.234,6.5Z" transform="translate(-1 5.402)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                                </g>
+                                <g id="Group_4166" data-name="Group 4166" transform="translate(1950.811 1501.514)">
+                                    <rect id="Rectangle_2621" data-name="Rectangle 2621" width="15.315" height="15.315" rx="2" transform="translate(0 0)" fill="#4ad991"/>
+                                    <g id="Group_4165" data-name="Group 4165" transform="translate(2.972 2.795)">
+                                    <path id="Path_2002" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
+                                    <path id="Path_2003" data-name="Path 2003" d="M1945.722,1492.668v9.724" transform="translate(-1940.86 -1492.668)" fill="none" stroke="#fff" stroke-width="2"/>
                                     </g>
-                                    <g id="Group_4166" data-name="Group 4166" transform="translate(1950.811 1501.514)">
-                                        <rect id="Rectangle_2621" data-name="Rectangle 2621" width="15.315" height="15.315" rx="2" transform="translate(0 0)" fill="#4ad991"/>
-                                        <g id="Group_4165" data-name="Group 4165" transform="translate(2.972 2.795)">
-                                        <path id="Path_2002" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
-                                        <path id="Path_2003" data-name="Path 2003" d="M1945.722,1492.668v9.724" transform="translate(-1940.86 -1492.668)" fill="none" stroke="#fff" stroke-width="2"/>
-                                        </g>
-                                    </g>
-                                    </g>
-                                </g>
-                                <g id="Group_4382" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                    <rect id="Rectangle_2656" data-name="Rectangle 2656" width="167.29" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
-                                </g>
-                                <g id="Group_4383" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                    <rect id="Rectangle_2656-2" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
-                                </g>
-                                <line id="Line_389" data-name="Line 389" y2="26" transform="translate(1108.5 2773.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-                                </g>
-                                <g id="Group_4385" data-name="Group 4385" transform="translate(-11 86.259)">
-                                <g id="Group_4381-2" data-name="Group 4381" transform="translate(0 -39.886)">
-                                    <circle id="Ellipse_819-2" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#566ff4"/>
-                                    <g id="tag" transform="translate(1096.373 2771.373)">
-                                    <path id="Path_2004" data-name="Path 2004" d="M15.853,22.093l6.24-6.24a1.871,1.871,0,0,0,0-2.645L11.885,3H3v8.885L13.208,22.093A1.871,1.871,0,0,0,15.853,22.093Z" transform="translate(-0.193 -0.193)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
-                                    <circle id="Ellipse_775" data-name="Ellipse 775" cx="2.158" cy="2.158" r="2.158" transform="translate(6.047 6.567)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
-                                    </g>
-                                    <g id="Group_4388" data-name="Group 4388" transform="translate(1111.163 2777.09)">
-                                    <rect id="Rectangle_2621-2" data-name="Rectangle 2621" width="15.315" height="15.315" rx="7.658" transform="translate(0 0)" fill="#566ff4"/>
-                                    <g id="Group_4165-2" data-name="Group 4165" transform="translate(2.972 2.795)">
-                                        <path id="Path_2002-2" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
-                                        <path id="Path_2003-2" data-name="Path 2003" d="M1945.722,1492.668v9.724" transform="translate(-1940.86 -1492.668)" fill="none" stroke="#fff" stroke-width="2"/>
-                                    </g>
-                                    </g>
-                                </g>
-                                <g id="Group_4382-2" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                    <rect id="Rectangle_2656-3" data-name="Rectangle 2656" width="165.067" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
-                                </g>
-                                <g id="Group_4383-2" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                    <rect id="Rectangle_2656-4" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
-                                </g>
-                                <line id="Line_390" data-name="Line 390" y2="26" transform="translate(1108.5 2773.374)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-                                </g>
-                                <g id="Group_4386" data-name="Group 4386" transform="translate(-11 172.392)">
-                                <g id="Group_4381-3" data-name="Group 4381" transform="translate(0 -39.886)">
-                                    <circle id="Ellipse_819-3" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#ff812c"/>
-                                    <g id="tag-2" data-name="tag" transform="translate(1095.36 2771.36)">
-                                    <path id="Path_2004-2" data-name="Path 2004" d="M18.144,25.5,25.5,18.144a2.2,2.2,0,0,0,0-3.117L13.469,3H3V13.469L15.027,25.5A2.2,2.2,0,0,0,18.144,25.5Z" transform="translate(-0.193 -0.193)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
-                                    <circle id="Ellipse_775-2" data-name="Ellipse 775" cx="2.543" cy="2.543" r="2.543" transform="translate(6.625 7.237)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
-                                    </g>
-                                    <g id="Group_4389" data-name="Group 4389" transform="translate(1113.65 2778.08)">
-                                    <rect id="Rectangle_2621-3" data-name="Rectangle 2621" width="15.315" height="15.315" rx="7.658" transform="translate(0 0)" fill="#ff812c"/>
-                                    <g id="Group_4165-3" data-name="Group 4165" transform="translate(2.972 2.795)">
-                                        <path id="Path_2002-3" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
-                                    </g>
-                                    </g>
-                                </g>
-                                <g id="Group_4382-3" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                    <rect id="Rectangle_2656-5" data-name="Rectangle 2656" width="160.246" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
-                                </g>
-                                <g id="Group_4383-3" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                    <rect id="Rectangle_2656-6" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                                 </g>
                                 </g>
                             </g>
+                            <g id="Group_4382" data-name="Group 4382" transform="translate(1146.346 2732.208)">
+                                <rect id="Rectangle_2656" data-name="Rectangle 2656" width="167.29" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            <g id="Group_4383" data-name="Group 4383" transform="translate(1146.346 2760.969)">
+                                <rect id="Rectangle_2656-2" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            <line id="Line_389" data-name="Line 389" y2="26" transform="translate(1108.5 2773.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                            </g>
+                            <g id="Group_4385" data-name="Group 4385" transform="translate(-11 86.259)">
+                            <g id="Group_4381-2" data-name="Group 4381" transform="translate(0 -39.886)">
+                                <circle id="Ellipse_819-2" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#566ff4"/>
+                                <g id="tag" transform="translate(1096.373 2771.373)">
+                                <path id="Path_2004" data-name="Path 2004" d="M15.853,22.093l6.24-6.24a1.871,1.871,0,0,0,0-2.645L11.885,3H3v8.885L13.208,22.093A1.871,1.871,0,0,0,15.853,22.093Z" transform="translate(-0.193 -0.193)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                <circle id="Ellipse_775" data-name="Ellipse 775" cx="2.158" cy="2.158" r="2.158" transform="translate(6.047 6.567)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                </g>
+                                <g id="Group_4388" data-name="Group 4388" transform="translate(1111.163 2777.09)">
+                                <rect id="Rectangle_2621-2" data-name="Rectangle 2621" width="15.315" height="15.315" rx="7.658" transform="translate(0 0)" fill="#566ff4"/>
+                                <g id="Group_4165-2" data-name="Group 4165" transform="translate(2.972 2.795)">
+                                    <path id="Path_2002-2" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
+                                    <path id="Path_2003-2" data-name="Path 2003" d="M1945.722,1492.668v9.724" transform="translate(-1940.86 -1492.668)" fill="none" stroke="#fff" stroke-width="2"/>
+                                </g>
+                                </g>
+                            </g>
+                            <g id="Group_4382-2" data-name="Group 4382" transform="translate(1146.346 2732.208)">
+                                <rect id="Rectangle_2656-3" data-name="Rectangle 2656" width="165.067" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            <g id="Group_4383-2" data-name="Group 4383" transform="translate(1146.346 2760.969)">
+                                <rect id="Rectangle_2656-4" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            <line id="Line_390" data-name="Line 390" y2="26" transform="translate(1108.5 2773.374)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                            </g>
+                            <g id="Group_4386" data-name="Group 4386" transform="translate(-11 172.392)">
+                            <g id="Group_4381-3" data-name="Group 4381" transform="translate(0 -39.886)">
+                                <circle id="Ellipse_819-3" data-name="Ellipse 819" cx="26" cy="26" r="26" transform="translate(1083 2758)" fill="#ff812c"/>
+                                <g id="tag-2" data-name="tag" transform="translate(1095.36 2771.36)">
+                                <path id="Path_2004-2" data-name="Path 2004" d="M18.144,25.5,25.5,18.144a2.2,2.2,0,0,0,0-3.117L13.469,3H3V13.469L15.027,25.5A2.2,2.2,0,0,0,18.144,25.5Z" transform="translate(-0.193 -0.193)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                <circle id="Ellipse_775-2" data-name="Ellipse 775" cx="2.543" cy="2.543" r="2.543" transform="translate(6.625 7.237)" fill="none" stroke="#fff" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+                                </g>
+                                <g id="Group_4389" data-name="Group 4389" transform="translate(1113.65 2778.08)">
+                                <rect id="Rectangle_2621-3" data-name="Rectangle 2621" width="15.315" height="15.315" rx="7.658" transform="translate(0 0)" fill="#ff812c"/>
+                                <g id="Group_4165-3" data-name="Group 4165" transform="translate(2.972 2.795)">
+                                    <path id="Path_2002-3" data-name="Path 2002" d="M1943.418,1494.5h9.724" transform="translate(-1943.418 -1490.047)" fill="none" stroke="#fff" stroke-width="2"/>
+                                </g>
+                                </g>
+                            </g>
+                            <g id="Group_4382-3" data-name="Group 4382" transform="translate(1146.346 2732.208)">
+                                <rect id="Rectangle_2656-5" data-name="Rectangle 2656" width="160.246" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            <g id="Group_4383-3" data-name="Group 4383" transform="translate(1146.346 2760.969)">
+                                <rect id="Rectangle_2656-6" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                            </g>
+                            </g>
+                        </g>
                         </svg>
+
 
                     </div>
                 </div>
