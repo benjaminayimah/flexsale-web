@@ -2,7 +2,7 @@
     <section class="fx jc-c gray-bg">
         <div class="section-wrapper fx">
             <div class="grid-row grid">
-                <div class="grid-item item-1 fx-col jc-c">
+                <div class="grid-item item-1 fx-col jc-c features-col-1">
                     <h1>Packed with cool features</h1>
                     <div class="description">Flexsale is comes with useful features with new features rolling out every month.</div>
                     <div>
