@@ -3,7 +3,7 @@ import { createStore } from 'vuex'
 export default createStore({
   state: {
     flexsaleHostname: 'http://localhost:8080',
-    hostname: 'http://localhost:8081',
+    hostname: 'https://flexsale.store',
     mobile: false,
     tablet: false,
     desktop: false,
