@@ -31,7 +31,7 @@ export default {
   mixins: [scrollTopMixin],
   data() {
     return {
-      rowWithImage : { title: 'Multiple Device Access', description: 'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.', image: true},
+      rowWithImage : { title: 'Multiple Device Access', description: 'Get Flexsale app on all platforms: iOS, MacOS, Android playStore and Windows OS.', image: true},
       rowNoImage : { title: 'Packed with cool features', description: 'Flexsale is comes with useful features with new features rolling out every month.'}
     }
   }
