@@ -1,5 +1,4 @@
 import { createStore } from 'vuex'
-
 export default createStore({
   state: {
     flexsaleHostname: 'http://localhost:8080',
