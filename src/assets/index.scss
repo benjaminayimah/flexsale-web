@@ -29,6 +29,7 @@ button,.a-button{
     border-radius: 60px;
     white-space: nowrap;
     font-weight: 600;
+    font-family: $myFont;
     &:hover {
         background-color: $gray-light;
     }&:active {
