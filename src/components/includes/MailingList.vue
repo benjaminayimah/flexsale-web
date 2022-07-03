@@ -21,7 +21,7 @@
             </form>
             <div v-if="completed" class="success-msg">
                 <h2>Thank you for showing interest in Flexsale.</h2>
-                <span>Your email has been added to our waiting list. We will notify you when we're reading to ship.</span>
+                <span>Your email has been added to our waiting list. We will notify you when we're ready to ship.</span>
             </div>
         </div>
     </div>
