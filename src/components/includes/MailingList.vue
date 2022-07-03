@@ -113,7 +113,7 @@ input:hover {
     height: 55px;
 }
 .success-msg{
-    padding: 20px;
+    padding: 10px;
     color: #1e1e1e;
     h2 {
         font-weight: 700;
