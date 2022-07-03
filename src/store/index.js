@@ -1,15 +1,17 @@
 import { createStore } from 'vuex'
 export default createStore({
   state: {
-    flexsaleHostname: 'http://localhost:8080',
+    flexsaleHostname: 'https://app.flexsale.store',
     hostname: 'https://flexsale.store',
+    apiHostname: 'http://localhost:8000',
     mobile: false,
     tablet: false,
     desktop: false,
     windowHeight: '',
     windowWidth: '',
     dynamicFloatingDiv: { left: 0, top: 0, bottom: 0},
-
+    mailing: false,
+    loader: false
   },
   mutations: {
     computeWindow(state) {
@@ -25,6 +27,7 @@ export default createStore({
         this.commit('setTablet')
       }
     },
+
     setMobile(state) {
       this.commit('resetAll')
       state.mobile = true
@@ -52,21 +55,29 @@ export default createStore({
       state.dynamicFloatingDiv.bottom = bottom
       document.body.classList.add('fixed-body')
       console.log(top + '_' +'_'+ bottom)
-
     },
     reSetDynamicFloatingDiv(state) {
       state.dynamicFloatingDiv.left = 0
       state.dynamicFloatingDiv.top = 0
       state.dynamicFloatingDiv.bottom = 0
       document.body.classList.remove('fixed-body')
-
     },
+    makeMail(state) {
+      state.mailing = !state.mailing
+    },
+    spinLoader(state) {
+      state.loader = true
+    },
+    stopLoader(state) {
+      state.loader = false
+    }
   },
   actions: {
     
   },
   getters: {
     getHostname: (state) => state.hostname,
+    getAPIHost: (state) => state.apiHostname,
     getWindowHeight: (state) => state.windowHeight,
     getWindowWidth: (state) => state.windowWidth,
     getMobile: (state) => state.mobile,
@@ -75,6 +86,9 @@ export default createStore({
     getCookieConsent: (state) => state.cookieConsent,
     getAppHostname: (state) => state.flexsaleHostname,
     getFloatingDiv: (state) => state.dynamicFloatingDiv,
+    getMailing: (state) => state.mailing,
+    getLoader: (state) => state.loader
+
 
 
   }
