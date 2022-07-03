@@ -3,7 +3,8 @@ export default createStore({
   state: {
     flexsaleHostname: 'https://app.flexsale.store',
     hostname: 'https://flexsale.store',
-    apiHostname: 'http://localhost:8000',
+    // apiHostname: 'http://localhost:8000',
+    apiHostname: 'https://api.flexsale.store',
     mobile: false,
     tablet: false,
     desktop: false,
