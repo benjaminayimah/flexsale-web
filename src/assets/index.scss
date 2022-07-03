@@ -515,6 +515,12 @@ h1,h2,h3{
             h3{
                 font-size: 1.6rem;
             }
+            .item-2, .item-4, .item-5{
+                svg {
+                    height: 130px;
+                    width: 130px;
+                }
+            }
         }
     }
     
