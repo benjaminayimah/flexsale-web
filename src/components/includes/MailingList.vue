@@ -92,8 +92,11 @@ export default {
         margin-bottom: 30px;
     }
 }
-input:hover {
-    border-color: $dark;
+input {
+    font-family: $myFont;
+    &:hover {
+        border-color: $dark;
+    }
 }
 .form-row{
     margin: 30px 0;
