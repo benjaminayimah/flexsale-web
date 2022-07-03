@@ -25,7 +25,6 @@ export default {
     padding-top: 80px;
     gap: 30px;
     .section-row{
-        max-width: 40%;
         text-align: center;
         h1 {
             font-size: 3.6rem;

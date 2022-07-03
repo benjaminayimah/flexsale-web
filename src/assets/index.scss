@@ -273,6 +273,10 @@ h1,h2,h3{
     .top-hold{
         width: 80%;
     }
+    .section-row{
+        width: 40%;
+        min-width: 524px;
+    }
     
 }
 
@@ -289,6 +293,38 @@ h1,h2,h3{
             width: 70%;
         }
     }
+    .section-row{
+        width: 80%;
+        min-width: 387px;
+    }
+    #banner{
+        .section-wrapper{
+            width: 70%;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+            .banner-caption-wrapper{
+                width: 100%;
+                h1 {
+                    font-size: 4rem;
+                    text-align: center;
+                }
+                .caption-sub{
+                    width: 100%;
+                    color: $gray;
+                    text-align: center;
+                }
+                a {
+                    padding: 20px 24px;
+                    font-size: 1.1rem;
+                }
+                .button-wrapper{
+                    justify-content: center;
+                }
+            }
+        }
+    }
+    
 }
 
 //Mobile
@@ -408,7 +444,8 @@ h1,h2,h3{
             min-height: 200px;
         }
         .section-row{
-            max-width: 100%;
+            min-width: 100%;
+            width: 100%;
             h1 {
                 font-size: 3rem;
             }
@@ -457,6 +494,19 @@ h1,h2,h3{
         .mail-wrapper {
             .button-primary {
                 width: 100%;
+            }
+        }
+    }
+    #prod_features{
+        .grid-row{
+            padding: 0;
+            background-color: inherit;
+            .item-2{
+                background-color: inherit;
+            }
+            .grid-sub {
+                min-height: 250px;
+                justify-content: center;
             }
         }
     }

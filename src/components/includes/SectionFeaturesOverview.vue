@@ -1,5 +1,5 @@
 <template>
-    <section class="fx jc-c gray-bg">
+    <section id="prod_features" class="fx jc-c gray-bg">
         <div class="section-wrapper fx">
             <div class="grid-row grid">
                 <div class="grid-item item-1 fx-col jc-c features-col-1">
