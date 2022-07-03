@@ -3,7 +3,7 @@
         <div v-if="menuActive && !desk" id="mobile_menu" :style="{ height: winHeight-(100+getFloatingDiv.top) + 'px', top: getFloatingDiv.bottom + 'px'}">
             <div class="mob-menu-wrapper fx-js fx-col">
                 <ul>
-                    <li v-for="menu in menus" :key="menu.id"><router-link :to="menu.url">{{ menu.name }}</router-link></li>
+                    <li @mouseup="$emit('dismissMenu')" v-for="menu in menus" :key="menu.id"><router-link :to="menu.url">{{ menu.name }}</router-link></li>
                 </ul>
                 <div class="fx w-100 gap-8">
                     <a :href="appHostname+'/signin'" class="w-50 signin a-button button-secondary">Login</a>

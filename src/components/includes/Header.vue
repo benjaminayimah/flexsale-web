@@ -28,7 +28,7 @@
       </div>
     </div>
   </header>
-  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" v-bind:menus="menus" v-bind:appHostname="getAppHostname" />
+  <mobile-menu v-bind:menuActive="menuToggle" v-bind:winHeight="winHeight" v-bind:desk="desk" v-bind:menus="menus" v-bind:appHostname="getAppHostname" @dismissMenu="doMenu" />
 </template>
 <script>
 import { mapGetters } from 'vuex'
