@@ -116,7 +116,11 @@ input:hover {
     border-radius: 14px;
     border: 1px solid rgb(151, 199, 163);
     background-color: #f8fdfa;
-    color: #021106;
+    color: #2d302e;
+    h2 {
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
 }
 .err-msg{
     font-size: 1rem;
