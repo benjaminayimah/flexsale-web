@@ -19,7 +19,7 @@
                     </div>
                     <div class="fx">
                         <button class="button button-primary" @click.prevent="sendMail">
-                            <span>Sign up to mailing list</span>
+                            <span>Join our waiting list</span>
                             <spinner v-if="getLoader" v-bind:size="20" v-bind:white="true" />
                         </button>
                     </div>
