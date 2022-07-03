@@ -1,32 +1,36 @@
 <template>
-    <overlay @click="$store.commit('makeMail')" v-if="getMailing" />
-    <div class="mail-hold" v-if="getMailing">
-        <div class="mail-wrapper">
-            <button class="button cancel-btn" @click.prevent="$store.commit('makeMail')">
-                <svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 20 20">
-                    <path d="M5793.4-3003.846l-7.881-7.881-7.879,7.88a1.241,1.241,0,0,1-1.756,0,1.242,1.242,0,0,1,0-1.756l7.88-7.879-7.88-7.879a1.243,1.243,0,0,1,0-1.757,1.241,1.241,0,0,1,1.756,0l7.88,7.88,7.88-7.88a1.24,1.24,0,0,1,1.755,0,1.24,1.24,0,0,1,0,1.756l-7.88,7.88,7.88,7.88a1.241,1.241,0,0,1,0,1.757,1.236,1.236,0,0,1-.877.363A1.236,1.236,0,0,1,5793.4-3003.846Z" transform="translate(-5775.518 3023.483)" fill="#0e142c"></path>
-                </svg>
-            </button>
-             <form action="" v-if="!completed">
-                <h1>Interested in Flexsale?</h1>
-                <div class="sub">Get notified when we're ready to ship.</div>
-                <div class="form-row" :class="{ 'has-error' : err }">
-                    <input v-model="email" @focus="clearError" type="email" name="email" class="form-control" placeholder="your-email@example.com">
-                    <span v-if="err" class="err-msg">Enter your email first...</span>
+    <transition name="fade">
+        <overlay @click="$store.commit('makeMail')" v-if="getMailing" />
+    </transition>
+    <transition :name="getMobile? 'slide' : ''">
+         <div class="mail-hold" v-if="getMailing">
+            <div class="mail-wrapper">
+                <button class="button cancel-btn" @click.prevent="$store.commit('makeMail')">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="14" viewBox="0 0 20 20">
+                        <path d="M5793.4-3003.846l-7.881-7.881-7.879,7.88a1.241,1.241,0,0,1-1.756,0,1.242,1.242,0,0,1,0-1.756l7.88-7.879-7.88-7.879a1.243,1.243,0,0,1,0-1.757,1.241,1.241,0,0,1,1.756,0l7.88,7.88,7.88-7.88a1.24,1.24,0,0,1,1.755,0,1.24,1.24,0,0,1,0,1.756l-7.88,7.88,7.88,7.88a1.241,1.241,0,0,1,0,1.757,1.236,1.236,0,0,1-.877.363A1.236,1.236,0,0,1,5793.4-3003.846Z" transform="translate(-5775.518 3023.483)" fill="#0e142c"></path>
+                    </svg>
+                </button>
+                <form action="" v-if="!completed">
+                    <h1>Interested in Flexsale?</h1>
+                    <div class="sub">Get notified when we're ready to ship.</div>
+                    <div class="form-row" :class="{ 'has-error' : err }">
+                        <input v-model="email" @focus="clearError" type="email" name="email" class="form-control" placeholder="your-email@example.com">
+                        <span v-if="err" class="err-msg">Enter your email first...</span>
+                    </div>
+                    <div class="fx">
+                        <button class="button button-primary" @click.prevent="sendMail">
+                            <span>Sign up to mailing list</span>
+                            <spinner v-if="getLoader" v-bind:size="20" v-bind:white="true" />
+                        </button>
+                    </div>
+                </form>
+                <div v-if="completed" class="success-msg">
+                    <h2>Thank you for showing interest in Flexsale.</h2>
+                    <span>Your email has been added to our waiting list. We will notify you when we're ready to ship.</span>
                 </div>
-                <div class="fx jc-c">
-                    <button class="button button-primary" @click.prevent="sendMail">
-                        <span>Sign up to mailing list</span>
-                        <spinner v-if="getLoader" v-bind:size="20" v-bind:white="true" />
-                    </button>
-                </div>
-            </form>
-            <div v-if="completed" class="success-msg">
-                <h2>Thank you for showing interest in Flexsale.</h2>
-                <span>Your email has been added to our waiting list. We will notify you when we're ready to ship.</span>
             </div>
         </div>
-    </div>
+    </transition>
 </template>
 <script>
 import axios from 'axios'
@@ -36,7 +40,7 @@ import Spinner from './Spinner.vue'
 export default {
   components: { Overlay, Spinner },
     name: 'MailingList',
-    computed: mapGetters(['getMailing', 'getLoader', 'getAPIHost']),
+    computed: mapGetters(['getMailing', 'getLoader', 'getAPIHost', 'getMobile']),
     data() {
         return {
             email: '',
@@ -85,14 +89,14 @@ export default {
     position: relative;
     .sub{
         font-size: 1.1rem;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 input:hover {
     border-color: $dark;
 }
 .form-row{
-    margin: 20px 0;
+    margin: 30px 0;
 }
 .cancel-btn {
     display: flex;
@@ -134,5 +138,8 @@ input:hover {
         color: $danger;
     }
 }
-
+.slide-enter-from,
+.slide-leave-to {
+  transform: translate(-50%, 360px);
+}
 </style>
