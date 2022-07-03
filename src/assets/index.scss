@@ -455,7 +455,9 @@ h1,h2,h3{
         bottom: 0 !important;
         padding: 15px !important;
         .mail-wrapper {
-
+            .button-primary {
+                width: 100%;
+            }
         }
     }
     
