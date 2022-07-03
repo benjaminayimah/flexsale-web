@@ -14,10 +14,12 @@
                     <input v-model="email" @focus="clearError" type="email" name="email" class="form-control" placeholder="your-email@example.com">
                     <span v-if="err" class="err-msg">Enter your email first...</span>
                 </div>
-                <button class="button button-primary" @click.prevent="sendMail">
-                    <span>Sign up to mailing list</span>
-                    <spinner v-if="getLoader" v-bind:size="20" v-bind:white="true" />
-                </button>
+                <div class="fx jc-c">
+                    <button class="button button-primary" @click.prevent="sendMail">
+                        <span>Sign up to mailing list</span>
+                        <spinner v-if="getLoader" v-bind:size="20" v-bind:white="true" />
+                    </button>
+                </div>
             </form>
             <div v-if="completed" class="success-msg">
                 <h2>Thank you for showing interest in Flexsale.</h2>
@@ -68,7 +70,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .mail-hold{
-    height: 200px;
     width: 550px;
     position: fixed;
     z-index: 210;
