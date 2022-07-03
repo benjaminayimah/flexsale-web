@@ -7,6 +7,7 @@
     </div>
     <cookie-consent />
     <Footer />
+    <mailing-list />
   </div>
 </template>
 <script>
@@ -15,9 +16,10 @@ import CookieConsent from './components/includes/CookieConsent.vue';
 import Header from './components/includes/Header.vue';
 import TopInfoBar from './components/includes/TopInfoBar.vue';
 import Footer from './components/includes/Footer.vue';
+import MailingList from './components/includes/MailingList.vue';
 export default {
     name: "App",
-    components: { Header, TopInfoBar, CookieConsent, Footer },
+    components: { Header, TopInfoBar, CookieConsent, Footer, MailingList },
     computed: mapGetters(['getTablet', 'getMobile', 'getDesktop', 'getWindowHeight']),
     created() {
       this.$store.commit('computeWindow')
@@ -52,6 +54,7 @@ body {
   overflow-x: hidden;
   line-height: 1.4;
 }
+
 
 
 </style>

@@ -125,7 +125,7 @@
                 <div class="grid-item item-4 fx-col ai-c jc-c">
                     <h3>Activities log</h3>
                     <div>
-                      <svg xmlns="http://www.w3.org/2000/svg" width="230.636" height="233.537" viewBox="0 0 230.636 233.537">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="230.636" height="233.537" viewBox="0 0 230.636 233.537">
                         <g id="Group_4387" data-name="Group 4387" transform="translate(-1072 -2718.114)">
                             <g id="Group_4384" data-name="Group 4384" transform="translate(-11)">
                             <g id="Group_4381" data-name="Group 4381" transform="translate(0 -39.886)">
@@ -145,12 +145,12 @@
                                 </g>
                             </g>
                             <g id="Group_4382" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                <rect id="Rectangle_2656" data-name="Rectangle 2656" width="167.29" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656" data-name="Rectangle 2656" width="167.29" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
                             <g id="Group_4383" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                <rect id="Rectangle_2656-2" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656-2" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
-                            <line id="Line_389" data-name="Line 389" y2="26" transform="translate(1108.5 2773.5)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                            <line id="Line_389" data-name="Line 389" y2="26" transform="translate(1108.5 2773.5)" fill="none" stroke="#dee1e8" stroke-linecap="round" stroke-width="2"/>
                             </g>
                             <g id="Group_4385" data-name="Group 4385" transform="translate(-11 86.259)">
                             <g id="Group_4381-2" data-name="Group 4381" transform="translate(0 -39.886)">
@@ -168,12 +168,12 @@
                                 </g>
                             </g>
                             <g id="Group_4382-2" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                <rect id="Rectangle_2656-3" data-name="Rectangle 2656" width="165.067" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656-3" data-name="Rectangle 2656" width="165.067" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
                             <g id="Group_4383-2" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                <rect id="Rectangle_2656-4" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656-4" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
-                            <line id="Line_390" data-name="Line 390" y2="26" transform="translate(1108.5 2773.374)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+                            <line id="Line_390" data-name="Line 390" y2="26" transform="translate(1108.5 2773.374)" fill="none" stroke="#dee1e8" stroke-linecap="round" stroke-width="2"/>
                             </g>
                             <g id="Group_4386" data-name="Group 4386" transform="translate(-11 172.392)">
                             <g id="Group_4381-3" data-name="Group 4381" transform="translate(0 -39.886)">
@@ -190,15 +190,14 @@
                                 </g>
                             </g>
                             <g id="Group_4382-3" data-name="Group 4382" transform="translate(1146.346 2732.208)">
-                                <rect id="Rectangle_2656-5" data-name="Rectangle 2656" width="160.246" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656-5" data-name="Rectangle 2656" width="160.246" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
                             <g id="Group_4383-3" data-name="Group 4383" transform="translate(1146.346 2760.969)">
-                                <rect id="Rectangle_2656-6" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#d3d8e3"/>
+                                <rect id="Rectangle_2656-6" data-name="Rectangle 2656" width="29.082" height="18.29" rx="9.145" transform="translate(0 0)" fill="#e9ebf0"/>
                             </g>
                             </g>
                         </g>
                         </svg>
-
 
                     </div>
                 </div>

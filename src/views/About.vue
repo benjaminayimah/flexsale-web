@@ -1,7 +1,7 @@
 <template>
     <section class="policies-wrapper fx jc-c">
         <div class="policies-holder">
-            <h1>About</h1>
+            <h1>About Flexsale</h1>
             <div class="hero-image-holdr">
                 <img src="../../public/img/multi-device.svg" alt="Multiple Device Access">
             </div>
