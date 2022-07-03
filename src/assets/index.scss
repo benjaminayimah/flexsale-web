@@ -504,10 +504,16 @@ h1,h2,h3{
             background-color: inherit;
             .item-2{
                 background-color: inherit;
+                .sub-1{
+                    flex-direction: column-reverse;
+                }
             }
             .grid-sub {
                 min-height: 250px;
                 justify-content: center;
+            }
+            h3{
+                font-size: 1.6rem;
             }
         }
     }
