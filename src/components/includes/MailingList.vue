@@ -39,7 +39,7 @@ export default {
         return {
             email: '',
             err: false,
-            completed: true
+            completed: false
         }
     },
     methods: {
