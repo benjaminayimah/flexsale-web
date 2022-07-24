@@ -1,7 +1,7 @@
 <template>
     <div class="top-wrapper">
         <span>You can now install flexsale app on all platforms.</span>
-        <a class="a-underline" href="#">Learn more</a>
+        <router-link class="a-underline" to="/about">Learn more</router-link>
     </div>
 </template>
 <script>

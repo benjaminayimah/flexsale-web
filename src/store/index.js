@@ -88,8 +88,5 @@ export default createStore({
     getFloatingDiv: (state) => state.dynamicFloatingDiv,
     getMailing: (state) => state.mailing,
     getLoader: (state) => state.loader
-
-
-
   }
 })

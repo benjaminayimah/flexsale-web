@@ -247,7 +247,6 @@ export default {
     background-color: #fff;
     width: 100%;
     border-radius: 24px;
-    // height: 720px;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     .grid-item{
