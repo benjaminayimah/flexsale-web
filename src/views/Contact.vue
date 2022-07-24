@@ -5,7 +5,7 @@
             <div class="hero-image-holdr">
                 <img src="../../public/img/multi-device.svg" alt="Multiple Device Access">
             </div>
-            <div>Send us an email on <a title="Email us" href="mailto:info@flexsale.store" class="a-underline email-link">info@flexsale.store</a></div>
+            <div>Reach out to us on <a title="Email us" href="mailto:info@flexsale.store" class="a-underline email-link">info@flexsale.store</a></div>
         </div>
     </section>
 </template>
