@@ -4,7 +4,7 @@
             <div class="fx-col banner-caption-wrapper gap-32">
                 <h1><span>A Smart</span> way to manage your inventory.</h1>
                 <div class="caption-sub">Get more done by leveraging on the power of the most advanced inventory management tool yet. <strong>Records Sales, perform Analytics, create Tags,</strong> and more. </div>
-                <div class="fx button-wrapper"><a href="#"  @click.prevent="$store.commit('makeMail')" class="a-button button-primary">Create Free Account</a></div>
+                <div class="fx button-wrapper"><a :href="appHostname+'/signup'" class="a-button button-primary">Create Free Account</a></div>
             </div>
             <div class="banner-image fx ai-c">
                 <img src="../../../public/img/home-banner.svg" alt="">

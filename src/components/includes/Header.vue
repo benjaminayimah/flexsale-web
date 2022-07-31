@@ -24,7 +24,7 @@
       </div>
       <div v-show="!menuToggle" class="header-right gap-8 fx">
         <a v-if="desk" :href="getAppHostname+'/signin'" class="a-button button-secondary">Log In</a>
-        <a href="#" @click.prevent="$store.commit('makeMail')" class="a-button button-primary">Get Started</a>
+        <a :href="getAppHostname+'/signup'" class="a-button button-primary">Get Started</a>
       </div>
     </div>
   </header>
