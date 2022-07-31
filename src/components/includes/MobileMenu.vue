@@ -7,7 +7,7 @@
                 </ul>
                 <div class="fx w-100 gap-8">
                     <a :href="appHostname+'/signin'" class="w-50 signin a-button button-secondary">Login</a>
-                    <a href="#"  @click.prevent="$store.commit('makeMail')" class="w-50 a-button button-primary">Get Started</a>
+                    <a :href="getAppHostname+'/signup'" class="w-50 a-button button-primary">Get Started</a>
                 </div>
             </div>
         </div>

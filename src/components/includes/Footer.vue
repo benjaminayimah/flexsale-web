@@ -3,8 +3,8 @@
         <div class="footer-wrapper gap-32 fx-col ai-c">
             <div class="fx-col ai-c gap-32 footer-cont-1">
                 <h1>Get started with <span>Flexsale</span> Now.</h1>
-                <span class="span">It will only take a moment.</span>
-                <a href="#"  @click.prevent="$store.commit('makeMail')" class="a-button button-primary">Create Free Account</a>
+                    <span class="span">It will only take a moment.</span>
+                <a :href="getAppHostname+'/signup'" class="a-button button-primary">Create Free Account</a>
             </div>
             <hr>
             <a title="Email us" href="mailto:info@flexsale.store" class="a-underline email-link">info@flexsale.store</a>
